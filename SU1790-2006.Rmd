@@ -1,0 +1,146 @@
+---
+title: "State of the Unions 1790-2006"
+author: "Julie Norman"
+date: "3/15/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+##Libararies
+```{r}
+library(gutenbergr)
+library(plyr)
+library(dplyr)
+library(stringr)
+library(devtools)
+
+gutenberg_metadata %>%
+  filter(gutenberg_id == 5050)
+```
+
+##Data Dowload
+```{r}
+
+original_SU <- gutenberg_download(5050, mirror = "http://mirrors.xmission.com/gutenberg/", strip = TRUE,
+meta_fields = NULL, verbose = TRUE)
+original_SU
+```
+
+## Data Organization
+
+
+```{r}
+Wash1_SU <- original_SU[271:394,]
+Wash2_SU <- original_SU[402:544,]
+Wash3_SU <- original_SU[554:805,]
+Wash4_SU <- original_SU[815:1040,]
+Wash5_SU <- original_SU[1050:1247,]
+Wash6_SU <- original_SU[1257:1548,]
+Wash7_SU <- original_SU[1560:1764,]
+Wash8_SU <- original_SU[1774:2068,]
+JAdams1_SU <- original_SU[2078:2286,]
+JAdams2_SU <- original_SU[2294:2522,]
+JAdams3_SU <- original_SU[2530:2681,]
+JAdams4_SU <- original_SU[2294:2522,]
+JAdams5_SU <- origianal_SU[2530:2681,]
+JAdams6_SU <- original_SU[2685:2835,]
+Jeff1_SU <- original_SU[2843:3162,]
+Jeff2_SU <- original_SU[3170:3370,]
+Jeff3_SU <- original_SU[3387:3612,]
+Jeff4_SU <- original_SU[3622:3826,]
+Jeff5_SU <- original_SU[3836:4115,]
+Jeff6_SU <- original_SU[4125:4648,]
+Jeff7_SU <- original_SU[4658:4914,]
+Mad1_SU <- original_SU[4924:5104,]
+Mad2_SU <- original_SU[5112:5362,]
+Mad3_SU <- original_SU[5370:5606,]
+Mad4_SU <- original_SU[5614:5942,]
+Mad5_SU <- original_SU[5950:6283,]
+Mad6_SU <- original_SU[6291:6501,]
+Mad7_SU <- original_SU[6509:6825,]
+Mad8_SU <- original_SU[6833:7164,]
+Monroe1_SU <- original_SU[7172:7607,]
+Monroe2_SU <- original_SU[7615:8055,]
+Monroe3_SU <- original_SU[8063:8524,]
+Monroe4_SU <- original_SU[8532:8872,]
+Monroe5_SU <- original_SU[8880:9443,]
+Monroe6_SU <- original_SU[9451:9916,]
+Monroe7_SU <- original_SU[9924:10571,]
+Monroe8_SU <- original_SU[10579:11405,]
+JQAdams1_SU <- original_SU[11413:12276,]
+JQAdams2_SU <- original_SU[12286:13027,]
+JQAdams3_SU <- original_SU[13037:13719,]
+JQAdams4_SU <- original_SU[13729:14459,]
+Jack1_SU <- original_SU[14459:15476,]
+Jack2_SU <- original_SU[15484:16960,]
+Jack3_SU <- original_SU[16968:17661,]
+Jack4_SU <- original_SU[17669:18429,]
+Jack5_SU <- original_SU[18437:19200,]
+Jack6_SU <- original_SU[19208:20519,]
+Jack7_SU <- original_SU[20527:21571,]
+Jack8_SU <- original_SU[21579:22775,]
+MVB1_SU <- original_SU[22783:23877,]
+MVB2_SU <- original_SU[23885:24987,]
+MVB3_SU <- original_SU[24997:26254,]
+MVB4_SU <- original_SU[26264:27127,]
+Tyler1_SU <- original_SU[27137:27889,]
+Tyler2_SU <- original_SU[27897:28666,]
+Tyler3_SU <- original_SU[28674:29415,]
+Tyler4_SU <- original_SU[29423:30284,]
+Polk1_SU <- original_SU[30292:31784,]
+Polk2_SU <- original_SU[31794:33492,]
+Polk3_SU <- original_SU[33502:35071,]
+Polk4_SU <- original_SU[35081:37145,]
+Taylor1_SU <- original_SU[37155:37903,]
+Fillmore1_SU <- original_SU[37913:38717,]
+Fillmore2_SU <- original_SU[38725:40032,]
+Fillmore3_Su <- original_SU[40040:40995,]
+Pierce1_SU <- original_SU[41003:41946,]
+Pierce2_SU <- original_SU[41954:42902,]
+Pierce3_SU <- original_SU[42910:44061,]
+Pierce4_SU <- original_SU[44069:45097,]
+Buch1_SU <- original_SU[45105:46429,]
+Buch2_SU <- original_SU[46437:48010,]
+Buch3_SU <- original_SU[48018:49175,]
+Buch4_SU <- original_SU[49183:50563,]
+Lincoln1_SU <- original_SU[50571:51276,]
+Lincoln2_SU <- original_SU[51284:52127,]
+Lincoln3_SU <- original_SU[52135:52740,]
+Lincoln4_SU <- original_SU[52748:53394,]
+John1_SU <- original_SU[53402:54238,]
+John2_SU <- original_SU[54246:54938,]
+John3_SU <- original_SU[54946:56050,]
+John4_SU <- original_SU[56058:57034,]
+Grant1_SU <- original_SU[57042:57793,]
+Grant2_SU <- original_SU[57803:58637,]
+Grant3_SU <- original_SU[58647:59315,]
+Grant4_SU <- original_SU[59325:59748,]
+Grant5_SU <- original_SU[59756:60774,]
+Grant6_SU <- original_SU[60784:61662,]
+Grant7_SU <- original_SU[61672:62884,]
+Grant8_SU <- original_SU[62894:63585,]
+Hayes1_SU <- original_SU[63595:64384,]
+Hayes2_SU <- original_SU[64392:65187,]
+Hayes3_SU <- original_SU[65197:66383,]
+Hayes4_SU <- original_SU
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+
+
+
+
+
