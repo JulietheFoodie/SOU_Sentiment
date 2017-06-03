@@ -32,12 +32,11 @@ str(test)
 
 -Line 165 and 166 should be switch to maintain chronology
 ```{r}
-
-sotu1_df <- arrange(sotu_df, -row_number(165, 166))
+sotu1_df <- arrange(sotu_df, sotu_df[-c(165, 169)])
 ```
 
 ```{r}
-sotu2_df <- sotu_df[rev(rownames(165, 166)), ]                   
+sotu2_df <- sotu_df[rev(rownames(165, 166))]                  
 ```
 
 -Delete line 169. In 1956 Dwight D. Eisenhower gave two versions of the State of the Union. One that was recorded and broadcast to the public, the other was an address given to a joint session of Congress. The latter speech will be used for the general analysis since the congression address is considered the "official" State of the Union and will be a more accurate representation in our analysis. 
