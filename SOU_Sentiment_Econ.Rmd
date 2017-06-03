@@ -31,7 +31,21 @@ str(test)
 #Data Edit
 
 -Line 165 and 166 should be switch to maintain chronology
+```{r}
+
+sotu1_df <- arrange(sotu_df, -row_number(165, 166))
+```
+
+```{r}
+sotu2_df <- sotu_df[rev(rownames(165, 166)), ]                   
+```
+
 -Delete line 169. In 1956 Dwight D. Eisenhower gave two versions of the State of the Union. One that was recorded and broadcast to the public, the other was an address given to a joint session of Congress. The latter speech will be used for the general analysis since the congression address is considered the "official" State of the Union and will be a more accurate representation in our analysis. 
+```{r}
+sotu3_df <- sotu_df[-c(169), ]
+
+```
+
 - Line 176 and 177 should be switched in order to maintain chronology.
 - Delete line 188. In 1972 Richard Nixon gave two versions of the State of the Union. One that was recorded and broadcast to the public, the other was an address given to a joint session of Congress. The latter speech will be used for the general analysis since the congression address is considered the "official" State of the Union and will be a more accurate representation in our analysis. 
 - Add Line between 188 and 189 to add Richard Nixon's 1973 address.
@@ -42,3 +56,7 @@ str(test)
 - Add speech text to line 223. Source of George W. Bush 2003 speech will be the Gutenberg Library text. 
 - Add speech text to line 231. Source of Barack Obama 2011 speech will be the Gutenberg Library text. 
 - Add speech text to line 236. Source of Barack Obama 2016 speech will be the Gutenberg Library text. 
+
+
+
+
