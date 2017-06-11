@@ -19,42 +19,133 @@ library(sotu)
 sotu_df <- sotu_meta %>%
   mutate(text = sotu_text)
 
-str(sotu_df)
-View(sotu_text)
-```
-```{r}
 test <- data.frame(sotu_text)
 
 str(test)
 ```
 
-#Data Edit
+# Data Edit
 
--Line 165 and 166 should be switch to maintain chronology
+## Add Row 
+- Add Line to include Richard Nixon's 1973 address.
 ```{r}
-sotu1_df <- arrange(sotu_df, -row_number(165, 166))
+sotu1_df <- sotu_df
+
+addrow_1973 <- data.frame(president = "Richard M. Nixon", 
+                          year = "1973", 
+                          years_active = "1973-1974", 
+                          party = "Republican", 
+                          sotu_type = "written", 
+                          text = "To the Congress of the United States: The traditional form of the President's annual report giving 'to the Congress Information of the State of the Union' is a single message or address.")
+
+sotu1_df <- rbind(sotu1_df, addrow_1973)
+
+NROW(sotu1_df)
+
 ```
 
+- In 1956 Dwight D. Eisenhower gave two versions of the State of the Union. One that was recorded and broadcast to the public, the other was an address given to a joint session of Congress. The latter speech will be used for the general analysis since the congression address is considered the "official" State of the Union and will be a more accurate representation in our analysis. 
 ```{r}
-sotu2_df <- sotu_df[rev(rownames(165, 166)), ]                  
+sotu1_df <- sotu1_df %>% 
+  filter(!(year == 1956 & sotu_type == "speech"))
+NROW(sotu1_df)
+  
 ```
 
--Delete line 169. In 1956 Dwight D. Eisenhower gave two versions of the State of the Union. One that was recorded and broadcast to the public, the other was an address given to a joint session of Congress. The latter speech will be used for the general analysis since the congression address is considered the "official" State of the Union and will be a more accurate representation in our analysis. 
+- In 1972 Richard Nixon gave two versions of the State of the Union. One that was recorded and broadcast to the public, the other was an address given to a joint session of Congress. The latter speech will be used for the general analysis since the congression address is considered the "official" State of the Union and will be a more accurate representation in our analysis. 
 ```{r}
-sotu3_df <- sotu_df[-c(169), ]
-
+sotu1_df <- sotu1_df %>% 
+  filter(!(year == 1972 & sotu_type == "written"))
+NROW(sotu1_df)
+  
 ```
 
-- Line 176 and 177 should be switched in order to maintain chronology.
-- Delete line 188. In 1972 Richard Nixon gave two versions of the State of the Union. One that was recorded and broadcast to the public, the other was an address given to a joint session of Congress. The latter speech will be used for the general analysis since the congression address is considered the "official" State of the Union and will be a more accurate representation in our analysis. 
-- Add Line between 188 and 189 to add Richard Nixon's 1973 address.
-- Delete line 190. In 1974 Richard Nixon gave two versions of the State of the Union. One that was recorded and broadcast to the public, the other was an address given to a joint session of Congress. The latter speech will be used for the general analysis since the congression address is considered the "official" State of the Union and will be a more accurate representation in our analysis. 
-- Delete line 197, It is unknown why there are two address listed in 1979. According to the Gutenberg library and the American Presidency Project. The most actual state of the union in line 196 is the one we'll use for our analysis. 
-- Switch line 199 and 200 to maintain proper chronology
-- Add speech text to line 202. Source of Ronald Reagan 1982 speech will be the Gutenberg Library text. 
-- Add speech text to line 223. Source of George W. Bush 2003 speech will be the Gutenberg Library text. 
-- Add speech text to line 231. Source of Barack Obama 2011 speech will be the Gutenberg Library text. 
-- Add speech text to line 236. Source of Barack Obama 2016 speech will be the Gutenberg Library text. 
+- In 1974 Richard Nixon gave two versions of the State of the Union. One that was recorded and broadcast to the public, the other was an address given to a joint session of Congress. The latter speech will be used for the general analysis since the congression address is considered the "official" State of the Union and will be a more accurate representation in our analysis. 
+
+```{r}
+sotu1_df <- sotu1_df %>% 
+  filter(!(year == 1974 & sotu_type == "written"))
+NROW(sotu1_df)
+  
+```
+
+- It is unknown why there are two address listed in 1979. According to the Gutenberg library and the American Presidency Project the  actual state of the union is one of the two. That is the one we'll use for our analysis. 
+```{r}
+sotu1_df <- sotu1_df %>% 
+  filter(!(year == 1979 & sotu_type == "written"))
+NROW(sotu1_df)
+  
+```
+- Add speech text to Theodore Roosevelt 1904. Speech Source will be the Gutenberg Library text. 
+
+```{r}
+sotu1_df["116", "text"] = "To the Senate and House of Representatives: The Nation continues to enjoy noteworthy prosperity."
+
+as.character(sotu1_df[116, 6])
+```
+
+
+- Add speech text to Ronald Regan 1982. Speech Source will be the Gutenberg Library text. 
+
+```{r}
+sotu1_df["198", "text"] = "Mr. Speaker, Mr. President, distinguished Members of the Congress,
+honored guests, and fellow citizens: Today marks my first State of the Union address to you, a constitutional duty as old as our Republic itself."
+
+as.character(sotu1_df[198, 6])
+```
+
+- Add speech text to George W. Bush 2003. Speech source will be the Gutenberg Library text. 
+
+```{r}
+sotu1_df["219", "text"] = "Mr. Speaker, Mr. President, distinguished Members of the Congress,
+honored guests, and fellow citizens: Today marks my first State of the Union address to you, a constitutional duty as old as our Republic itself."
+
+as.character(sotu1_df[219, 6])
+```
+
+- Add speech text to Barack Obama 2011. Speech Source speech will be the Gutenberg Library text. 
+
+```{r}
+sotu1_df["227", "text"] = "Mr. Speaker, Mr. Vice President, Members of Congress, distinguished guests, and fellow Americans: Tonight I want to begin by congratulating the men and women of the 112th Congress, as well as your new Speaker, John Boehner. And as we mark this occasion, we're also mindful of the empty chair in this Chamber, and we pray for the health of our colleague and our friend Gabby Giffords."
+
+as.character(sotu1_df[227, 6])
+```
+
+- Add speech text to Barack Obama 2016. Speech source will be the Gutenberg Library text. 
+
+```{r}
+sotu1_df["232", "text"] = "Thank you. Mr. Speaker, Mr. Vice President, Members of Congress, myfellow Americans: Tonight marks the eighth year that I've come here to report on the State of the Union. And for this final one, I'm going to try to make it a little shorter. I know some of you are antsy to get back to Iowa. [Laughter] I've been there. I'll be shaking hands afterwards if you want some tips. [Laughter]"
+
+as.character(sotu1_df[232, 6])
+```
+
+## Test for Uniqueness 
+```{r}
+ColumnGrab <- sotu_df %>% 
+  select(president, year, sotu_type) %>%
+  duplicated()
+```
+
+## View Speech Text 
+```{r}
+as.character(sotu_df[1, 6])
+```
+
+
+
+# Write to CSV
+```{r}
+write.csv(sotu1_df, file = "Draft_1.csv")
+```
+
+
+
+
+
+
+
+
+
 
 
 
