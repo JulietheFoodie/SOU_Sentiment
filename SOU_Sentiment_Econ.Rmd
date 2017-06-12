@@ -13,7 +13,21 @@ output: html_notebook
 library(tidytext)
 library(tidyverse)
 library(sotu)
+library(readr)
 ```
+
+##Export 
+
+We are exporting sotu_meta to add the variables age, etc. to the data frame.
+
+```{r}
+write.csv(sotu_meta, file = "DFExport.csv")
+
+AgeNumber_df <-read_csv("~/Documents/Research/SOU_Sentiment/AgeNumber_df.csv")
+
+```
+
+
 
 ```{r}
 sotu_df <- sotu_meta %>%
