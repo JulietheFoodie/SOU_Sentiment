@@ -23,19 +23,17 @@ We are exporting sotu_meta to add the variables age, etc. to the data frame.
 ```{r}
 write.csv(sotu_meta, file = "DFExport.csv")
 
-AgeNumber_df <-read_csv("~/Documents/Research/SOU_Sentiment/AgeNumber_df.csv")
+sotu_clean_df <-read.csv("~/Documents/Research/SOU_Sentiment/DFImport.csv")
 
 ```
 
 
 
 ```{r}
-sotu_df <- sotu_meta %>%
+sotu_df <- sotu_clean_df %>%
   mutate(text = sotu_text)
 
-test <- data.frame(sotu_text)
-
-str(test)
+str(sotu_df)
 ```
 
 # Data Edit
@@ -151,7 +149,6 @@ as.character(sotu_df[1, 6])
 ```{r}
 write.csv(sotu1_df, file = "Draft_1.csv")
 ```
-
 
 
 
