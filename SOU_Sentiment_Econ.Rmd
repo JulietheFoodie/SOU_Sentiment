@@ -41,94 +41,102 @@ str(sotu_df)
 ## Add Row 
 - Add Line to include Richard Nixon's 1973 address.
 ```{r}
-sotu1_df <- sotu_df
-
-addrow_1973 <- data.frame(president = "Richard M. Nixon", 
-                          year = "1973", 
+addrow_1973 <- data.frame(year = "1973",
+                          elect_date = "",
+                          sou_date = "1973-02-02",
+                          sotu_type = "written",
+                          president = "Richard M. Nixon",
+                          birth_date = "1913-01-09",
+                          birth_state = "California",
+                          death_state = "New York",
+                          affil_region = "Pacific",
+                          party = "Republican",
+                          relative_ideology = "Conservative",
                           years_active = "1973-1974", 
-                          party = "Republican", 
-                          sotu_type = "written", 
-                          text = "To the Congress of the United States: The traditional form of the President's annual report giving 'to the Congress Information of the State of the Union' is a single message or address.")
+                          year_num = "4",
+                          term_num = "1",
+                          term_type = "Midterm",
+                          decl_war = "Peace",
+                          va_wars = "War",
+                          text = read_file("~/Documents/Research/SOU_Sentiment/Nixon_73.txt"))
 
-sotu1_df <- rbind(sotu1_df, addrow_1973)
+sotu_df <- rbind(sotu_df, addrow_1973)
 
-NROW(sotu1_df)
+NROW(sotu_df)
 
 ```
 
 - In 1956 Dwight D. Eisenhower gave two versions of the State of the Union. One that was recorded and broadcast to the public, the other was an address given to a joint session of Congress. The latter speech will be used for the general analysis since the congression address is considered the "official" State of the Union and will be a more accurate representation in our analysis. 
 ```{r}
-sotu1_df <- sotu1_df %>% 
+sotu_df <- sotu_df %>% 
   filter(!(year == 1956 & sotu_type == "speech"))
-NROW(sotu1_df)
+NROW(sotu_df)
   
 ```
 
 - In 1972 Richard Nixon gave two versions of the State of the Union. One that was recorded and broadcast to the public, the other was an address given to a joint session of Congress. The latter speech will be used for the general analysis since the congression address is considered the "official" State of the Union and will be a more accurate representation in our analysis. 
 ```{r}
-sotu1_df <- sotu1_df %>% 
+sotu_df <- sotu_df %>% 
   filter(!(year == 1972 & sotu_type == "written"))
-NROW(sotu1_df)
+NROW(sotu_df)
   
 ```
 
 - In 1974 Richard Nixon gave two versions of the State of the Union. One that was recorded and broadcast to the public, the other was an address given to a joint session of Congress. The latter speech will be used for the general analysis since the congression address is considered the "official" State of the Union and will be a more accurate representation in our analysis. 
 
 ```{r}
-sotu1_df <- sotu1_df %>% 
+sotu_df <- sotu_df %>% 
   filter(!(year == 1974 & sotu_type == "written"))
-NROW(sotu1_df)
+NROW(sotu_df)
   
 ```
 
 - It is unknown why there are two address listed in 1979. According to the Gutenberg library and the American Presidency Project the  actual state of the union is one of the two. That is the one we'll use for our analysis. 
 ```{r}
-sotu1_df <- sotu1_df %>% 
+sotu_df <- sotu_df %>% 
   filter(!(year == 1979 & sotu_type == "written"))
-NROW(sotu1_df)
+NROW(sotu_df)
   
 ```
 - Add speech text to Theodore Roosevelt 1904. Speech Source will be the Gutenberg Library text. 
 
 ```{r}
-sotu1_df["116", "text"] = "To the Senate and House of Representatives: The Nation continues to enjoy noteworthy prosperity."
+sotu_df["116", "text"] = read_file("~/Documents/Research/SOU_Sentiment/TR_04.txt")
 
-as.character(sotu1_df[116, 6])
+as.character(sotu_df[116, 18])
 ```
 
 
 - Add speech text to Ronald Regan 1982. Speech Source will be the Gutenberg Library text. 
 
 ```{r}
-sotu1_df["198", "text"] = "Mr. Speaker, Mr. President, distinguished Members of the Congress,
-honored guests, and fellow citizens: Today marks my first State of the Union address to you, a constitutional duty as old as our Republic itself."
+sotu_df["198", "text"] = read_file("~/Documents/Research/SOU_Sentiment/Reagan_82.txt")
 
-as.character(sotu1_df[198, 6])
+as.character(sotu_df[198, 18])
 ```
 
 - Add speech text to George W. Bush 2003. Speech source will be the Gutenberg Library text. 
 
 ```{r}
-sotu1_df["219", "text"] = "Mr. Speaker, Mr. President, distinguished Members of the Congress,
-honored guests, and fellow citizens: Today marks my first State of the Union address to you, a constitutional duty as old as our Republic itself."
+sotu_df["219", "text"] = read_file("~/Documents/Research/SOU_Sentiment/WBush_03.txt")
 
-as.character(sotu1_df[219, 6])
+as.character(sotu_df[219, 18])
 ```
 
 - Add speech text to Barack Obama 2011. Speech Source speech will be the Gutenberg Library text. 
 
 ```{r}
-sotu1_df["227", "text"] = "Mr. Speaker, Mr. Vice President, Members of Congress, distinguished guests, and fellow Americans: Tonight I want to begin by congratulating the men and women of the 112th Congress, as well as your new Speaker, John Boehner. And as we mark this occasion, we're also mindful of the empty chair in this Chamber, and we pray for the health of our colleague and our friend Gabby Giffords."
+sotu_df["227", "text"] = read_file("~/Documents/Research/SOU_Sentiment/Obama_11.txt")
 
-as.character(sotu1_df[227, 6])
+as.character(sotu_df[227, 18])
 ```
 
 - Add speech text to Barack Obama 2016. Speech source will be the Gutenberg Library text. 
 
 ```{r}
-sotu1_df["232", "text"] = "Thank you. Mr. Speaker, Mr. Vice President, Members of Congress, myfellow Americans: Tonight marks the eighth year that I've come here to report on the State of the Union. And for this final one, I'm going to try to make it a little shorter. I know some of you are antsy to get back to Iowa. [Laughter] I've been there. I'll be shaking hands afterwards if you want some tips. [Laughter]"
+sotu_df["232", "text"] = read_file("~/Documents/Research/SOU_Sentiment/Obama_11.txt")
 
-as.character(sotu1_df[232, 6])
+as.character(sotu_df[232, 18])
 ```
 
 ## Test for Uniqueness 
@@ -142,14 +150,6 @@ ColumnGrab <- sotu_df %>%
 ```{r}
 as.character(sotu_df[1, 6])
 ```
-
-
-
-# Write to CSV
-```{r}
-write.csv(sotu1_df, file = "Draft_1.csv")
-```
-
 
 
 
