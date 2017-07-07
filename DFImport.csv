@@ -1,237 +1,237 @@
-year,elect_date,sou_date,sotu_type,president,birth_date,birth_state,death_state,affil_region,party,relative_ideology,years_active,year_num,term_num,term_type,decl_war,va_wars
-1790,-,1790-01-08,speech,George Washington,1732-02-22,Virginia ,Virginia ,Colonial South,Nonpartisan,Independent,1789-1793,1,1,Midterm,Peace,Peace
-1790,-,1790-12-08,speech,George Washington,1732-02-22,Virginia ,Virginia ,Colonial South,Nonpartisan,Independent,1789-1793,1,1,Midterm,Peace,Peace
-1791,-,1791-08-25,speech,George Washington,1732-02-22,Virginia ,Virginia ,Colonial South,Nonpartisan,Independent,1789-1793,2,1,Midterm,Peace,Peace
-1792,1792-11-02,1792-11-06,speech,George Washington,1732-02-22,Virginia ,Virginia ,Colonial South,Nonpartisan,Independent,1789-1793,3,1,Reelected,Peace,Peace
-1793,-,1793-12-03,speech,George Washington,1732-02-22,Virginia ,Virginia ,Colonial South,Nonpartisan,Independent,1793-1797,4,1,Midterm,Peace,Peace
-1794,-,1794-11-19,speech,George Washington,1732-02-22,Virginia ,Virginia ,Colonial South,Nonpartisan,Independent,1793-1797,5,2,Midterm,Peace,Peace
-1795,-,1795-12-08,speech,George Washington,1732-02-22,Virginia ,Virginia ,Colonial South,Nonpartisan,Independent,1793-1797,6,2,Midterm,Peace,Peace
-1796,1796-11-04,1796-12-07,speech,George Washington,1732-02-22,Virginia ,Virginia ,Colonial South,Nonpartisan,Independent,1793-1797,7,2,Lame Duck ,Peace,Peace
-1797,-,1797-11-22,speech,John Adams,1735-10-30,Massachusettes,Massachusettes,New England,Federalist,Liberal,1797-1801,1,1,Newly Elected,Peace,Peace
-1798,-,1798-12-08,speech,John Adams,1735-10-30,Massachusettes,Massachusettes,New England,Federalist,Liberal,1797-1801,2,1,Midterm,Peace,Peace
-1799,-,1799-12-03,speech,John Adams,1735-10-30,Massachusettes,Massachusettes,New England,Federalist,Liberal,1797-1801,3,1,Midterm,Peace,Peace
-1800,1800-10-31,1800-11-11,speech,John Adams,1735-10-30,Massachusettes,Massachusettes,New England,Federalist,Liberal,1797-1801,4,1,Lame Duck ,Peace,Peace
-1801,-,1801-12-08,written,Thomas Jefferson,1743-04-13,Virginia ,Virginia ,Colonial South,Democratic-Republican,Conservative,1801-1805,1,1,Newly Elected,Peace,Peace
-1802,-,1802-12-15,written,Thomas Jefferson,1743-04-13,Virginia ,Virginia ,Colonial South,Democratic-Republican,Conservative,1801-1805,2,1,Midterm,Peace,Peace
-1803,-,1803-10-17,written,Thomas Jefferson,1743-04-13,Virginia ,Virginia ,Colonial South,Democratic-Republican,Conservative,1801-1805,3,1,Midterm,Peace,Peace
-1804,1804-11-02,1804-11-08,written,Thomas Jefferson,1743-04-13,Virginia ,Virginia ,Colonial South,Democratic-Republican,Conservative,1801-1805,4,1,Reelected,Peace,Peace
-1805,-,1805-12-03,written,Thomas Jefferson,1743-04-13,Virginia ,Virginia ,Colonial South,Democratic-Republican,Conservative,1805-1809,5,2,Midterm,Peace,Peace
-1806,-,1806-12-02,written,Thomas Jefferson,1743-04-13,Virginia ,Virginia ,Colonial South,Democratic-Republican,Conservative,1805-1809,6,2,Midterm,Peace,Peace
-1807,-,1807-10-27,written,Thomas Jefferson,1743-04-13,Virginia ,Virginia ,Colonial South,Democratic-Republican,Conservative,1805-1809,7,2,Midterm,Peace,Peace
-1808,1808-11-04,1808-11-08,written,Thomas Jefferson,1743-04-13,Virginia ,Virginia ,Colonial South,Democratic-Republican,Conservative,1805-1809,8,2,Lame Duck ,Peace,Peace
-1809,-,1809-11-29,written,James Madison,1751-03-16,Virginia ,Virginia ,Colonial South,Democratic-Republican,Conservative,1809-1813,1,1,Newly Elected,Peace,Peace
-1810,-,1810-12-05,written,James Madison,1751-03-16,Virginia ,Virginia ,Colonial South,Democratic-Republican,Conservative,1809-1813,2,1,Midterm,Peace,Peace
-1811,-,1811-11-05,written,James Madison,1751-03-16,Virginia ,Virginia ,Colonial South,Democratic-Republican,Conservative,1809-1813,3,1,Midterm,Peace,Peace
-1812,1812-10-30,1812-11-04,written,James Madison,1751-03-16,Virginia ,Virginia ,Colonial South,Democratic-Republican,Conservative,1809-1813,4,1,Newly Reelected,Declared,War
-1813,-,1813-12-07,written,James Madison,1751-03-16,Virginia ,Virginia ,Colonial South,Democratic-Republican,Conservative,1813-1817,5,2,Midterm,Declared,War
-1814,-,1814-09-20,written,James Madison,1751-03-16,Virginia ,Virginia ,Colonial South,Democratic-Republican,Conservative,1813-1817,6,2,Midterm,Declared,War
-1815,-,1815-12-05,written,James Madison,1751-03-16,Virginia ,Virginia ,Colonial South,Democratic-Republican,Conservative,1813-1817,7,2,Midterm,Peace,Peace
-1816,1816-11-01,1816-12-03,written,James Madison,1751-03-16,Virginia ,Virginia ,Colonial South,Democratic-Republican,Conservative,1813-1817,8,2,Lame Duck ,Peace,Peace
-1817,-,1817-12-12,written,James Monroe,1758-04-28,Virginia ,New York,Colonial South,Democratic-Republican,Conservative,1817-1821,1,1,Newly Elected,Peace,Peace
-1818,-,1818-11-16,written,James Monroe,1758-04-28,Virginia ,New York,Colonial South,Democratic-Republican,Conservative,1817-1821,2,1,Midterm,Peace,Peace
-1819,-,1819-12-07,written,James Monroe,1758-04-28,Virginia ,New York,Colonial South,Democratic-Republican,Conservative,1817-1821,3,1,Midterm,Peace,Peace
-1820,1820-11-03,1820-11-14,written,James Monroe,1758-04-28,Virginia ,New York,Colonial South,Democratic-Republican,Conservative,1817-1821,4,1,Reelected,Peace,Peace
-1821,-,1821-12-03,written,James Monroe,1758-04-28,Virginia ,New York,Colonial South,Democratic-Republican,Conservative,1821-1825,5,2,Midterm,Peace,Peace
-1822,-,1822-12-03,written,James Monroe,1758-04-28,Virginia ,New York,Colonial South,Democratic-Republican,Conservative,1821-1825,6,2,Midterm,Peace,Peace
-1823,-,1823-12-02,written,James Monroe,1758-04-28,Virginia ,New York,Colonial South,Democratic-Republican,Conservative,1821-1825,7,2,Midterm,Peace,Peace
-1824,1824-10-29,1824-12-07,written,James Monroe,1758-04-28,Virginia ,New York,Colonial South,Democratic-Republican,Conservative,1821-1825,8,2,Lame Duck ,Peace,Peace
-1825,-,1825-12-05,written,John Quincy Adams,1767-07-11,Massachusettes,Massachusettes,New England,Democratic-Republican,Conservative,1825-1829,1,1,Newly Elected,Peace,Peace
-1826,-,1826-12-05,written,John Quincy Adams,1767-07-11,Massachusettes,Massachusettes,New England,Democratic-Republican,Conservative,1825-1829,2,1,Midterm,Peace,Peace
-1827,-,1827-12-04,written,John Quincy Adams,1767-07-11,Massachusettes,Massachusettes,New England,Democratic-Republican,Conservative,1825-1829,3,1,Midterm,Peace,Peace
-1828,1828-10-31,1828-12-02,written,John Quincy Adams,1767-07-11,Massachusettes,Massachusettes,New England,Democratic-Republican,Conservative,1825-1829,4,1,Lame Duck ,Peace,Peace
-1829,-,1829-12-08,written,Andrew Jackson,1767-03-15,Carolinas,Tennessee,West,Democratic,Conservative,1829-1833,1,1,Newly Elected,Peace,Peace
-1830,-,1830-12-06,written,Andrew Jackson,1767-03-15,Carolinas,Tennessee,West,Democratic,Conservative,1829-1833,2,1,Midterm,Peace,Peace
-1831,-,1831-12-06,written,Andrew Jackson,1767-03-15,Carolinas,Tennessee,West,Democratic,Conservative,1829-1833,3,1,Midterm,Peace,Peace
-1832,1832-11-02,1832-12-04,written,Andrew Jackson,1767-03-15,Carolinas,Tennessee,West,Democratic,Conservative,1829-1833,4,1,Reelected,Peace,Peace
-1833,-,1833-12-03,written,Andrew Jackson,1767-03-15,Carolinas,Tennessee,West,Democratic,Conservative,1833-1837,5,2,Midterm,Peace,Peace
-1834,-,1834-12-01,written,Andrew Jackson,1767-03-15,Carolinas,Tennessee,West,Democratic,Conservative,1833-1837,6,2,Midterm,Peace,Peace
-1835,-,1835-12-07,written,Andrew Jackson,1767-03-15,Carolinas,Tennessee,West,Democratic,Conservative,1833-1837,7,2,Midterm,Peace,Peace
-1836,1836-11-04,1836-12-05,written,Andrew Jackson,1767-03-15,Carolinas,Tennessee,West,Democratic,Conservative,1833-1837,8,2,Lame Duck ,Peace,Peace
-1837,-,1837-12-05,written,Martin Van Buren,1782-12-05,New York,New York,New England,Democratic,Conservative,1837-1841,1,1,Newly Elected,Peace,Peace
-1838,-,1838-12-03,written,Martin Van Buren,1782-12-05,New York,New York,New England,Democratic,Conservative,1837-1841,2,1,Midterm,Peace,Peace
-1839,-,1839-12-02,written,Martin Van Buren,1782-12-05,New York,New York,New England,Democratic,Conservative,1837-1841,3,1,Midterm,Peace,Peace
-1840,1840-10-30,1840-12-05,written,Martin Van Buren,1782-12-05,New York,New York,New England,Democratic,Conservative,1837-1841,4,1,Lame Duck ,Peace,Peace
-1841,-,1841-12-07,written,John Tyler,1790-03-29,Virginia ,Virginia ,Colonial South,Whig,Liberal,1841-1845,1,1,Replacement,Peace,Peace
-1842,-,1842-12-06,written,John Tyler,1790-03-29,Virginia ,Virginia ,Colonial South,Whig,Liberal,1841-1845,2,1,Midterm,Peace,Peace
-1843,-,1843-12-06,written,John Tyler,1790-03-29,Virginia ,Virginia ,Colonial South,Whig,Liberal,1841-1845,3,1,Midterm,Peace,Peace
-1844,1844-11-07,1844-12-03,written,John Tyler,1790-03-29,Virginia ,Virginia ,Colonial South,Whig,Liberal,1841-1845,4,1,Lame Duck ,Peace,Peace
-1845,-,1845-12-02,written,James K. Polk,1795-11-02,Virginia ,Virginia ,Colonial South,Democratic,Conservative,1845-1849,1,1,Newly Elected,Peace,Peace
-1846,-,1846-12-08,written,James K. Polk,1795-11-02,Virginia ,Virginia ,Colonial South,Democratic,Conservative,1845-1849,2,1,Midterm,Declared,War
-1847,-,1847-12-07,written,James K. Polk,1795-11-02,Virginia ,Virginia ,Colonial South,Democratic,Conservative,1845-1849,3,1,Midterm,Declared,War
-1848,1848-11-07,1848-12-05,written,James K. Polk,1795-11-02,Virginia ,Virginia ,Colonial South,Democratic,Conservative,1845-1849,4,1,Lame Duck ,Peace,Peace
-1849,-,1849-12-04,written,Zachary Taylor,1784-11-24,Virginia ,Washington D.C.,Colonial South,Whig,Liberal,1849-1850,1,1,Newly Elected,Peace,Peace
-1850,-,1850-12-02,written,Millard Fillmore,1800-01-07,New York,New York,New England,Whig,Liberal,1850-1853,1,0,Replacement,Peace,Peace
-1851,-,1851-12-02,written,Millard Fillmore,1800-01-07,New York,New York,New England,Whig,Liberal,1850-1853,2,0,Midterm,Peace,Peace
-1852,1852-11-02,1852-12-06,written,Millard Fillmore,1800-01-07,New York,New York,New England,Whig,Liberal,1850-1853,3,0,Lame Duck ,Peace,Peace
-1853,-,1853-12-05,written,Franklin Pierce,1804-11-23,New Hampshire,New Hampshire,New England,Democratic,Conservative,1853-1857,1,1,Newly Elected,Peace,Peace
-1854,-,1854-12-04,written,Franklin Pierce,1804-11-23,New Hampshire,New Hampshire,New England,Democratic,Conservative,1853-1857,2,1,Midterm,Peace,Peace
-1855,-,1855-12-31,written,Franklin Pierce,1804-11-23,New Hampshire,New Hampshire,New England,Democratic,Conservative,1853-1857,3,1,Midterm,Peace,Peace
-1856,1856-12-03,1856-12-02,written,Franklin Pierce,1804-11-23,New Hampshire,New Hampshire,New England,Democratic,Conservative,1853-1857,4,1,Midterm,Peace,Peace
-1857,-,1857-12-08,written,James Buchanan,1791-04-23,Pennsylvania,Pennsylvania,New England,Democratic,Conservative,1857-1861,1,1,Newly Elected,Peace,Peace
-1858,-,1858-12-19,written,James Buchanan,1791-04-23,Pennsylvania,Pennsylvania,New England,Democratic,Conservative,1857-1861,2,1,Midterm,Peace,Peace
-1859,-,1859-12-19,written,James Buchanan,1791-04-23,Pennsylvania,Pennsylvania,New England,Democratic,Conservative,1857-1861,3,1,Midterm,Peace,Peace
-1860,1860-11-06,1860-12-03,written,James Buchanan,1791-04-23,Pennsylvania,Pennsylvania,New England,Democratic,Conservative,1857-1861,4,1,Lame Duck ,Peace,Peace
-1861,,1861-12-03,written,Abraham Lincoln,1809-02-12,Kentucky,Washington D.C.,North,Republican,Liberal,1861-1865,1,1,Newly Elected,Peace,War
-1862,,1862-12-01,written,Abraham Lincoln,1809-02-12,Kentucky,Washington D.C.,North,Republican,Liberal,1861-1865,2,1,Midterm,Peace,War
-1863,,1863-12-08,written,Abraham Lincoln,1809-02-12,Kentucky,Washington D.C.,North,Republican,Liberal,1861-1865,3,1,Midterm,Peace,War
-1864,1864-11-08,1864-12-06,written,Abraham Lincoln,1809-02-12,Kentucky,Washington D.C.,North,Republican,Liberal,1861-1865,4,1,Reelected,Peace,War
-1865,-,1865-12-04,written,Andrew Johnson,1809-02-16,North Carolina,Tennessee,South,Republican,Liberal,1865-1869,1,0,Replacement,Peace,War
-1866,-,1866-12-03,written,Andrew Johnson,1809-02-16,North Carolina,Tennessee,South,Republican,Liberal,1865-1869,2,0,Midterm,Peace,Peace
-1867,-,1867-12-03,written,Andrew Johnson,1809-02-16,North Carolina,Tennessee,South,Republican,Liberal,1865-1869,3,0,Midterm,Peace,Peace
-1868,1868-12-02,1868-12-09,written,Andrew Johnson,1809-02-16,North Carolina,Tennessee,South,Republican,Liberal,1865-1869,4,0,Lame Duck ,Peace,Peace
-1869,-,1869-12-06,written,Ulysses S. Grant,1822-04-27,Ohio,New York,North,Republican,Liberal,1869-1873,1,1,Newly Elected,Peace,Peace
-1870,-,1870-12-05,written,Ulysses S. Grant,1822-04-27,Ohio,New York,North,Republican,Liberal,1869-1873,2,1,Midterm,Peace,Peace
-1871,-,1871-12-04,written,Ulysses S. Grant,1822-04-27,Ohio,New York,North,Republican,Liberal,1869-1873,3,1,Midterm,Peace,Peace
-1872,1872-11-05,1872-12-02,written,Ulysses S. Grant,1822-04-27,Ohio,New York,North,Republican,Liberal,1869-1873,4,1,Reelected,Peace,Peace
-1873,-,1873-12-01,written,Ulysses S. Grant,1822-04-27,Ohio,New York,North,Republican,Liberal,1873-1877,5,2,Midterm,Peace,Peace
-1874,-,1874-12-07,written,Ulysses S. Grant,1822-04-27,Ohio,New York,North,Republican,Liberal,1873-1877,6,2,Midterm,Peace,Peace
-1875,-,1875-12-07,written,Ulysses S. Grant,1822-04-27,Ohio,New York,North,Republican,Liberal,1873-1877,7,2,Midterm,Peace,Peace
-1876,1876-11-07,1876-12-05,written,Ulysses S. Grant,1822-04-27,Ohio,New York,North,Republican,Liberal,1873-1877,8,2,Lame Duck ,Peace,Peace
-1877,-,1877-12-03,written,Rutherford B. Hayes,1822-10-04,Ohio,Ohio,North,Republican,Liberal,1877-1881,1,1,Newly Elected,Peace,Peace
-1878,-,1878-12-02,written,Rutherford B. Hayes,1822-10-04,Ohio,Ohio,North,Republican,Liberal,1877-1881,2,1,Midterm,Peace,Peace
-1879,-,1879-12-01,written,Rutherford B. Hayes,1822-10-04,Ohio,Ohio,North,Republican,Liberal,1877-1881,3,1,Midterm,Peace,Peace
-1880,1880-11-02,1880-12-06,written,Rutherford B. Hayes,1822-10-04,Ohio,Ohio,North,Republican,Liberal,1877-1881,4,1,Lame Duck ,Peace,Peace
-1881,-,1881-12-06,written,Chester A. Arthur,1829-10-05,Vermont,New York,New England,Republican,Liberal,1881-1885,1,1,Replacement,Peace,Peace
-1882,-,1882-12-04,written,Chester A. Arthur,1829-10-05,Vermont,New York,New England,Republican,Liberal,1881-1885,2,1,Midterm,Peace,Peace
-1883,-,1883-12-04,written,Chester A. Arthur,1829-10-05,Vermont,New York,New England,Republican,Liberal,1881-1885,3,1,Midterm,Peace,Peace
-1884,1884-11-04,1884-12-01,written,Chester A. Arthur,1829-10-05,Vermont,New York,New England,Republican,Liberal,1881-1885,4,1,Lame Duck ,Peace,Peace
-1885,-,1885-12-08,written,Grover Cleveland,1837-03-18,New Jersey,New Jersey,New England,Democratic,Conservative,1885-1889,1,1,Newly Elected,Peace,Peace
-1886,-,1886-12-06,written,Grover Cleveland,1837-03-18,New Jersey,New Jersey,New England,Democratic,Conservative,1885-1889,2,1,Midterm,Peace,Peace
-1887,-,1887-12-06,written,Grover Cleveland,1837-03-18,New Jersey,New Jersey,New England,Democratic,Conservative,1885-1889,3,1,Midterm,Peace,Peace
-1888,1888-11-06,1888-12-03,written,Grover Cleveland,1837-03-18,New Jersey,New Jersey,New England,Democratic,Conservative,1885-1889,4,1,Lame Duck ,Peace,Peace
-1889,-,1889-12-03,written,Benjamin Harrison,1833-08-20,Ohio,Indiana,North,Republican,Liberal,1889-1893,1,1,Newly Elected,Peace,Peace
-1890,-,1890-12-01,written,Benjamin Harrison,1833-08-20,Ohio,Indiana,North,Republican,Liberal,1889-1893,2,1,Midterm,Peace,Peace
-1891,-,1891-12-09,written,Benjamin Harrison,1833-08-20,Ohio,Indiana,North,Republican,Liberal,1889-1893,3,1,Midterm,Peace,Peace
-1892,1892-11-08,1892-12-02,written,Benjamin Harrison,1833-08-20,Ohio,Indiana,North,Republican,Liberal,1889-1893,4,1,Lame Duck ,Peace,Peace
-1893,-,1893-12-04,written,Grover Cleveland,1837-03-18,New Jersey,New Jersey,New England,Democratic,Conservative,1893-1897,1,1,Newly Elected,Peace,Peace
-1894,-,1894-12-03,written,Grover Cleveland,1837-03-18,New Jersey,New Jersey,New England,Democratic,Conservative,1893-1897,2,1,Midterm,Peace,Peace
-1895,-,1895-12-02,written,Grover Cleveland,1837-03-18,New Jersey,New Jersey,New England,Democratic,Conservative,1893-1897,3,1,Midterm,Peace,Peace
-1896,1896-11-03,1896-12-07,written,Grover Cleveland,1837-03-18,New Jersey,New Jersey,New England,Democratic,Conservative,1893-1897,4,1,Lame Duck ,Peace,Peace
-1897,-,1897-12-06,written,William McKinley,1843-01-29,Ohio,New York,North,Republican,Liberal,1897-1901,1,1,Newly Elected,Peace,Peace
-1898,-,1898-12-05,written,William McKinley,1843-01-29,Ohio,New York,North,Republican,Liberal,1897-1901,2,1,Midterm,Declared,War
-1899,-,1899-12-05,written,William McKinley,1843-01-29,Ohio,New York,North,Republican,Liberal,1897-1901,3,1,Midterm,Peace,War
-1900,1900-11-06,1900-12-03,written,William McKinley,1843-01-29,Ohio,New York,North,Republican,Liberal,1897-1901,4,1,Lame Duck ,Peace,War
-1901,-,1901-12-03,written,Theodore Roosevelt,1858-10-27,New York,New York,New England,Republican,Liberal,1901-1905,1,1,Replacement,Peace,War
-1902,-,1902-12-02,written,Theodore Roosevelt,1858-10-27,New York,New York,New England,Republican,Liberal,1901-1905,2,1,Midterm,Peace,Peace
-1903,-,1903-12-07,written,Theodore Roosevelt,1858-10-27,New York,New York,New England,Republican,Liberal,1901-1905,3,1,Midterm,Peace,Peace
-1904,1904-11-08,1904-12-06,written,Theodore Roosevelt,1858-10-27,New York,New York,New England,Republican,Liberal,1901-1905,4,1,Reelected,Peace,Peace
-1905,-,1905-12-05,written,Theodore Roosevelt,1858-10-27,New York,New York,New England,Republican,Liberal,1905-1909,5,2,Midterm,Peace,Peace
-1906,-,1906-12-03,written,Theodore Roosevelt,1858-10-27,New York,New York,New England,Republican,Liberal,1905-1909,6,2,Midterm,Peace,Peace
-1907,-,1907-12-03,written,Theodore Roosevelt,1858-10-27,New York,New York,New England,Republican,Liberal,1905-1909,7,2,Midterm,Peace,Peace
-1908,1908-11-03,1908-12-08,written,Theodore Roosevelt,1858-10-27,New York,New York,New England,Republican,Liberal,1905-1909,8,2,Lame Duck ,Peace,Peace
-1909,-,1909-12--07,written,William Howard Taft,1857-09-15,Ohio,Washington D.C.,North,Republican,Conservative,1909-1913,1,1,Newly Elected,Peace,Peace
-1910,-,1910-12-06,written,William Howard Taft,1857-09-15,Ohio,Washington D.C.,North,Republican,Conservative,1909-1913,2,1,Midterm,Peace,Peace
-1911,-,1911-12-05,written,William Howard Taft,1857-09-15,Ohio,Washington D.C.,North,Republican,Conservative,1909-1913,3,1,Midterm,Peace,Peace
-1912,1912-11-05,1912-12-03,written,William Howard Taft,1857-09-15,Ohio,Washington D.C.,North,Republican,Conservative,1909-1913,4,1,Lame Duck ,Peace,Peace
-1913,-,1913-12-02,speech,Woodrow Wilson,1856-12-28,Virginia ,Washington D.C.,New England,Democratic,Liberal,1913-1917,1,1,Newly Elected,Peace,Peace
-1914,-,1914-12-08,speech,Woodrow Wilson,1856-12-28,Virginia ,Washington D.C.,New England,Democratic,Liberal,1913-1917,2,1,Midterm,Peace,Peace
-1915,-,1915-12-07,speech,Woodrow Wilson,1856-12-28,Virginia ,Washington D.C.,New England,Democratic,Liberal,1913-1917,3,1,Midterm,Peace,Peace
-1916,1916-11-07,1916-12-05,speech,Woodrow Wilson,1856-12-28,Virginia ,Washington D.C.,New England,Democratic,Liberal,1913-1917,4,1,Newly Reelected,Peace,Peace
-1917,-,1917-12-04,speech,Woodrow Wilson,1856-12-28,Virginia ,Washington D.C.,New England,Democratic,Liberal,1917-1921,5,2,Midterm,Declared,War
-1918,-,1918-12-02,speech,Woodrow Wilson,1856-12-28,Virginia ,Washington D.C.,New England,Democratic,Liberal,1917-1921,6,2,Midterm,Declared,War
-1919,-,1919-12-02,written,Woodrow Wilson,1856-12-28,Virginia ,Washington D.C.,New England,Democratic,Liberal,1917-1921,7,2,Midterm,Peace,Peace
-1920,1920-11-02,1920-12-07,written,Woodrow Wilson,1856-12-28,Virginia ,Washington D.C.,New England,Democratic,Liberal,1917-1921,8,2,Lame Duck ,Peace,Peace
-1921,-,1921-12-06,speech,Warren G. Harding,1865-11-02,Ohio,California,North,Republican,Conservative,1921-1923,1,1,Newly Elected,Peace,Peace
-1922,-,1922-12-08,speech,Warren G. Harding,1865-11-02,Ohio,California,North,Republican,Conservative,1921-1923,2,1,Midterm,Peace,Peace
-1923,-,1923-12-06,speech,Calvin Coolidge,1872-07-04,Vermont,Massachusettes,New England,Republican,Conservative,1923-1925,1,0,Replacement,Peace,Peace
-1924,1924-11-04,1924-12-03,written,Calvin Coolidge,1872-07-04,Vermont,Massachusettes,New England,Republican,Conservative,1923-1925,2,0,Newly Elected,Peace,Peace
-1925,,1925-12-08,written,Calvin Coolidge,1872-07-04,Vermont,Massachusettes,New England,Republican,Conservative,1925-1929,3,1,Midterm,Peace,Peace
-1926,,1926-12-07,written,Calvin Coolidge,1872-07-04,Vermont,Massachusettes,New England,Republican,Conservative,1925-1929,4,1,Midterm,Peace,Peace
-1927,,1927-12-06,written,Calvin Coolidge,1872-07-04,Vermont,Massachusettes,New England,Republican,Conservative,1925-1929,5,1,Midterm,Peace,Peace
-1928,1928-11-06,1928-12-04,written,Calvin Coolidge,1872-07-04,Vermont,Massachusettes,New England,Republican,Conservative,1925-1929,6,1,Lame Duck ,Peace,Peace
-1929,,1929-12-03,written,Herbert Hoover,1874-08-10,Iowa,New York,North,Republican,Conservative,1929-1933,1,1,Newly Elected,Peace,Peace
-1930,,1930-12-02,written,Herbert Hoover,1874-08-10,Iowa,New York,North,Republican,Conservative,1929-1933,2,1,Midterm,Peace,Peace
-1931,,1931-12-08,written,Herbert Hoover,1874-08-10,Iowa,New York,North,Republican,Conservative,1929-1933,3,1,Midterm,Peace,Peace
-1932,1932-11-08,1932-12-06,written,Herbert Hoover,1874-08-10,Iowa,New York,North,Republican,Conservative,1929-1933,4,1,Lame Duck ,Peace,Peace
-1934,,1934-01-03,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,Liberal,1933-1937,1,1,Midterm,Peace,Peace
-1935,,1935-01-04,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,Liberal,1933-1937,2,1,Midterm,Peace,Peace
-1936,1936-11-03,1936-01-03,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,Liberal,1933-1937,3,1,Midterm,Peace,Peace
-1937,,1937-01-06,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,Liberal,1937-1941,4,2,Reelected,Peace,Peace
-1938,,1938-01-03,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,Liberal,1937-1941,5,2,Midterm,Peace,Peace
-1939,,1939-01-04,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,Liberal,1937-1941,6,2,Midterm,Peace,Peace
-1940,1940-11-05,1940-01-03,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,Liberal,1937-1941,7,2,Reelected,Peace,Peace
-1941,,1941-01-06,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,Liberal,1941-1945,8,3,Midterm,Peace,Peace
-1942,,1942-01-06,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,Liberal,1941-1945,9,3,Midterm,Declared,War
-1943,,1943-01-07,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,Liberal,1941-1945,10,3,Midterm,Declared,War
-1944,1944-11-07,1944-01-11,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,Liberal,1941-1945,11,3,Reelected,Declared,War
-1945,,1945-01-06,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,Liberal,1945,12,4,Midterm,Declared,War
-1945,,1945-01-06,written,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,Liberal,1945,12,4,Midterm,Declared,War
-1946,,1946-01-21,written,Harry S Truman,1884-05-08,Missouri,Missouri,South,Democratic,Liberal,1945-1949,1,0,Replacement,Peace,Peace
-1947,,1947-01-06,speech,Harry S Truman,1884-05-08,Missouri,Missouri,South,Democratic,Liberal,1945-1949,2,0,Midterm,Peace,Peace
-1948,1948-11-02,1948-01-07,speech,Harry S Truman,1884-05-08,Missouri,Missouri,South,Democratic,Liberal,1945-1949,3,0,Midterm,Peace,Peace
-1949,,1949-01-05,speech,Harry S Truman,1884-05-08,Missouri,Missouri,South,Democratic,Liberal,1949-1953,4,1,Reelected,Peace,Peace
-1950,,1950-01-04,speech,Harry S Truman,1884-05-08,Missouri,Missouri,South,Democratic,Liberal,1949-1953,5,1,Midterm,Peace,Peace
-1951,,1951-01-08,speech,Harry S Truman,1884-05-08,Missouri,Missouri,South,Democratic,Liberal,1949-1953,6,1,Midterm,Peace,War
-1952,1952-11-04,1952-01-09,speech,Harry S Truman,1884-05-08,Missouri,Missouri,South,Democratic,Liberal,1949-1953,7,1,Reelected,Peace,War
-1953,,1953-02-02,written,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,Conservative,1953-1957,1,1,Midterm,Peace,War
-1953,,1953-01-07,written,Harry S Truman,1884-05-08,Missouri,Missouri,South,Democratic,Liberal,1949-1953,8,1,Midterm,Peace,War
-1954,,1954-01-07,speech,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,Conservative,1953-1957,2,1,Midterm,Peace,Peace
-1955,,1955-01-06,speech,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,Conservative,1953-1957,3,1,Midterm,Peace,Peace
-1956,1956-11-06,1956-01-05,speech,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,Conservative,1953-1957,4,1,Midterm,Peace,Peace
-1956,1956-11-06,1956-01-06,written,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,Conservative,1953-1957,4,1,Midterm,Peace,Peace
-1957,,1957-01-10,speech,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,Conservative,1957-1961,5,2,Newly Elected,Peace,Peace
-1958,,1958-01-09,speech,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,Conservative,1957-1961,6,2,Midterm,Peace,Peace
-1959,,1959-01-09,speech,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,Conservative,1957-1961,7,2,Midterm,Peace,Peace
-1960,1960-11-08,1960-01-07,speech,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,Conservative,1957-1961,8,2,Midterm,Peace,Peace
-1961,,1961-01-30,written,John F. Kennedy,1917-05-29,Massachusettes,Texas,New England,Democratic,Liberal,1961-1963,1,1,Newly Elected,Peace,Peace
-1961,,1961-01-12,written,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,Conservative,1957-1961,9,2,Lame Duck ,Peace,Peace
-1962,,1962-11-30,speech,John F. Kennedy,1917-05-29,Massachusettes,Texas,New England,Democratic,Liberal,1961-1963,2,1,Midterm,Peace,Peace
-1963,,1963-01-14,speech,John F. Kennedy,1917-05-29,Massachusettes,Texas,New England,Democratic,Liberal,1961-1963,3,1,Midterm,Peace,Peace
-1964,1964-11-03,1964-01-08,speech,Lyndon B. Johnson,1908-08-27,Texas,Texas,South,Democratic,Liberal,1964-1965,1,0,Ascended,Peace,Peace
-1965,,1965-01-04,speech,Lyndon B. Johnson,1908-08-27,Texas,Texas,South,Democratic,Liberal,1965-1969,2,1,Midterm,Peace,Peace
-1966,,1966-01-12,speech,Lyndon B. Johnson,1908-08-27,Texas,Texas,South,Democratic,Liberal,1965-1969,3,1,Midterm,Peace,War
-1967,,1967-01-10,speech,Lyndon B. Johnson,1908-08-27,Texas,Texas,South,Democratic,Liberal,1965-1969,4,1,Midterm,Peace,War
-1968,1968-11-05,1968-01-17,speech,Lyndon B. Johnson,1908-08-27,Texas,Texas,South,Democratic,Liberal,1965-1969,5,1,Midterm,Peace,War
-1969,,1969-01-14,written,Lyndon B. Johnson,1908-08-27,Texas,Texas,South,Democratic,Liberal,1965-1969,6,2,Lame Duck ,Peace,War
-1970,,1970-01-22,speech,Richard M. Nixon,1913-01-09,Callifornia,New York,Pacific,Republican,Conservative,1969-1973,1,0,Newly Elected,Peace,War
-1971,,1971-01-22,speech,Richard M. Nixon,1913-01-09,Callifornia,New York,Pacific,Republican,Conservative,1969-1973,2,0,Midterm,Peace,War
-1972,1972-11-07,1972-01-20,speech,Richard M. Nixon,1913-01-09,Callifornia,New York,Pacific,Republican,Conservative,1969-1973,3,0,Midterm,Peace,War
-1972,1972-11-07,1972-01-20,written,Richard M. Nixon,1913-01-09,Callifornia,New York,Pacific,Republican,Conservative,1969-1973,3,0,Midterm,Peace,War
-1974,,1974-01-30,speech,Richard M. Nixon,1913-01-09,Callifornia,New York,Pacific,Republican,Conservative,1973-1974,5,1,Midterm,Peace,War
-1974,,1974-01-30,written,Richard M. Nixon,1913-01-09,Callifornia,New York,Pacific,Republican,Conservative,1973-1974,5,1,Midterm,Peace,War
-1975,,1975-01-15,speech,Gerald R. Ford,1913-07-14,Nebraska,California,West,Republican,Conservative,1974-1977,1,0,Midterm,Peace,War
-1976,1976-11-02,1976-01-19,speech,Gerald R. Ford,1913-07-14,Nebraska,California,West,Republican,Conservative,1974-1977,2,0,Midterm,Peace,Peace
-1977,,1977-01-12,written,Gerald R. Ford,1913-07-14,Nebraska,California,West,Republican,Conservative,1974-1977,3,0,Newly Reelected,Peace,Peace
-1978,,1978-01-19,speech,Jimmy Carter,1924-10-01,Georgia,-,South,Democratic,Liberal,1977-1981,1,1,Midterm,Peace,Peace
-1978,,1978-01-19,written,Jimmy Carter,1924-10-01,Georgia,-,South,Democratic,Liberal,1977-1981,1,1,Midterm,Peace,Peace
-1979,,1979-01-25,speech,Jimmy Carter,1924-10-01,Georgia,-,South,Democratic,Liberal,1977-1981,2,1,Midterm,Peace,Peace
-1979,,1979-01-25,written,Jimmy Carter,1924-10-01,Georgia,-,South,Democratic,Liberal,1977-1981,2,2,Midterm,Peace,Peace
-1980,1980-11-04,1980-01-21,speech,Jimmy Carter,1924-10-01,Georgia,-,South,Democratic,Liberal,1977-1981,3,2,Midterm,Peace,Peace
-1980,1980-11-04,1980-01-21,written,Jimmy Carter,1924-10-01,Georgia,-,South,Democratic,Liberal,1977-1981,3,2,Midterm,Peace,Peace
-1981,,1981,speech,Ronald Reagan,1911-02-06,Illinois,California,Pacific,Republican,Conservative,1981-1985,1,1,Midterm,Peace,Peace
-1981,,1981-01-16,written,Jimmy Carter,1924-06-12,Georgia,-,South,Democratic,Liberal,1977-1981,4,2,Reelected,Peace,Peace
-1982,,1982-01-26,speech,Ronald Reagan,1911-02-06,Illinois,California,Pacific,Republican,Conservative,1981-1985,2,1,Midterm,Peace,Peace
-1983,,1983-01-25,speech,Ronald Reagan,1911-02-06,Illinois,California,Pacific,Republican,Conservative,1981-1985,3,1,Midterm,Peace,Peace
-1984,1984-11-06,1984-01-25,speech,Ronald Reagan,1911-02-06,Illinois,California,Pacific,Republican,Conservative,1981-1985,4,1,Midterm,Peace,Peace
-1985,,1985-02--06,speech,Ronald Reagan,1911-02-06,Illinois,California,Pacific,Republican,Conservative,1985-1989,5,2,Reelected,Peace,Peace
-1986,,1986-02-04,speech,Ronald Reagan,1911-02-06,Illinois,California,Pacific,Republican,Conservative,1985-1989,6,2,Midterm,Peace,Peace
-1987,,1987-01-27,speech,Ronald Reagan,1911-02-06,Illinois,California,Pacific,Republican,Conservative,1985-1989,7,2,Midterm,Peace,Peace
-1988,1988-11-08,1988-01-25,speech,Ronald Reagan,1911-02-06,Illinois,California,Pacific,Republican,Conservative,1985-1989,8,2,Midterm,Peace,Peace
-1989,,1989-02-09,speech,George Bush,1924-06-12,Massachusettes,-,South,Republican,Conservative,1989-1993,1,1,Midterm,Peace,Peace
-1990,,1990-01-31,speech,George Bush,1924-06-12,Massachusettes,-,South,Republican,Conservative,1989-1993,2,1,Midterm,Peace,Peace
-1991,,1991-01-29,speech,George Bush,1924-06-12,Massachusettes,-,South,Republican,Conservative,1989-1993,3,1,Midterm,Peace,War
-1992,1992-11-03,1992-01-28,speech,George Bush,1924-06-12,Massachusettes,-,South,Republican,Conservative,1989-1993,4,1,Midterm,Peace,Peace
-1993,,1993-02-17,speech,William J. Clinton,1946-08-19,Arkansas ,-,South,Democratic,Liberal,1993-1997,1,1,Newly Elected,Peace,Peace
-1994,,1994-01-25,speech,William J. Clinton,1946-08-19,Arkansas ,-,South,Democratic,Liberal,1993-1997,2,1,Midterm,Peace,Peace
-1995,,1995-01-24,speech,William J. Clinton,1946-08-19,Arkansas ,-,South,Democratic,Liberal,1993-1997,3,1,Midterm,Peace,Peace
-1996,1996-11-05,1996-01-23,speech,William J. Clinton,1946-08-19,Arkansas ,-,South,Democratic,Liberal,1993-1997,4,1,Midterm,Peace,Peace
-1997,,1997-02-04,speech,William J. Clinton,1946-08-19,Arkansas ,-,South,Democratic,Liberal,1997-2001,5,2,Reelected,Peace,Peace
-1998,,1998-01-27,speech,William J. Clinton,1946-08-19,Arkansas ,-,South,Democratic,Liberal,1997-2001,6,2,Midterm,Peace,Peace
-1999,,1999-01-19,speech,William J. Clinton,1946-08-19,Arkansas ,-,South,Democratic,Liberal,1997-2001,7,2,Midterm,Peace,Peace
-2000,2000-11-07,2000-01-27,speech,William J. Clinton,1946-08-19,Arkansas ,-,South,Democratic,Liberal,1997-2001,8,2,Midterm,Peace,Peace
-2001,,2001-02-27,speech,George W. Bush,1946-07-06,Connecticut,-,South,Republican,Conservative,2001-2005,1,1,Newly Elected,Peace,Peace
-2002,,2002-01-29,speech,George W. Bush,1946-07-06,Connecticut,-,South,Republican,Conservative,2001-2005,2,1,Midterm,Peace,War
-2003,,2003-01-28,speech,George W. Bush,1946-07-06,Connecticut,-,South,Republican,Conservative,2001-2005,3,1,Midterm,Peace,War
-2004,2004-11-02,2004-01-24,speech,George W. Bush,1946-07-06,Connecticut,-,South,Republican,Conservative,2001-2005,4,1,Midterm,Peace,War
-2005,,2005-02-02,speech,George W. Bush,1946-07-06,Connecticut,-,South,Republican,Conservative,2005-2009,5,2,Reelected,Peace,War
-2006,,2006-01-31,speech,George W. Bush,1946-07-06,Connecticut,-,South,Republican,Conservative,2005-2009,6,2,Midterm,Peace,War
-2007,,2007-01-23,speech,George W. Bush,1946-07-06,Connecticut,-,South,Republican,Conservative,2005-2009,7,2,Midterm,Peace,War
-2008,2008-11-04,2008-01-28,speech,George W. Bush,1946-07-06,Connecticut,-,South,Republican,Conservative,2005-2009,8,2,Midterm,Peace,War
-2009,,2009-02-24,speech,Barack Obama,1961-08-04,Hawaii,-,North,Democratic,Liberal,2009-2013,1,1,Newly Elected,Peace,War
-2010,,2010-01-27,speech,Barack Obama,1961-08-04,Hawaii,-,North,Democratic,Liberal,2009-2013,2,1,Midterm,Peace,War
-2011,,2011-01-25,speech,Barack Obama,1961-08-04,Hawaii,-,North,Democratic,Liberal,2009-2013,3,1,Midterm,Peace,War
-2012,2012-11-06,2012-01-24,speech,Barack Obama,1961-08-04,Hawaii,-,North,Democratic,Liberal,2009-2013,4,1,Midterm,Peace,War
-2013,,2013-02-12,speech,Barack Obama,1961-08-04,Hawaii,-,North,Democratic,Liberal,2013-2016,5,2,Reelected,Peace,War
-2014,,2014-01-28,speech,Barack Obama,1961-08-04,Hawaii,-,North,Democratic,Liberal,2013-2016,6,2,Midterm,Peace,War
-2015,,2015-01-20,speech,Barack Obama,1961-08-04,Hawaii,-,North,Democratic,Liberal,2013-2016,7,2,Midterm,Peace,War
-2016,2016-11-08,2016-01-12,speech,Barack Obama,1961-08-04,Hawaii,-,North,Democratic,Liberal,2013-2016,8,2,Midterm,Peace,War
+year,elect_date,sou_date,sotu_type,president,birth_date,birth_state,death_state,affil_region,party,cong_sup,relative_ideology,years_active,year_num,term_num,term_type,decl_war,va_wars
+1790,-,1790-01-08,speech,George Washington,1732-02-22,Virginia ,Virginia ,Colonial South,Nonpartisan,16/30,Independent,1789-1793,1,1,Midterm,Peace,Peace
+1790,-,1790-12-08,speech,George Washington,1732-02-22,Virginia ,Virginia ,Colonial South,Nonpartisan,16/30,Independent,1789-1793,1,1,Midterm,Peace,Peace
+1791,-,1791-08-25,speech,George Washington,1732-02-22,Virginia ,Virginia ,Colonial South,Nonpartisan,16/30,Independent,1789-1793,2,1,Midterm,Peace,Peace
+1792,1792-11-02,1792-11-06,speech,George Washington,1732-02-22,Virginia ,Virginia ,Colonial South,Nonpartisan,16/30,Independent,1789-1793,3,1,Reelected,Peace,Peace
+1793,-,1793-12-03,speech,George Washington,1732-02-22,Virginia ,Virginia ,Colonial South,Nonpartisan,16/30,Independent,1793-1797,4,1,Midterm,Peace,Peace
+1794,1794-08-24,1794-11-19,speech,George Washington,1732-02-22,Virginia ,Virginia ,Colonial South,Nonpartisan,16/30,Independent,1793-1797,5,2,Midterm,Peace,Peace
+1795,-,1795-12-08,speech,George Washington,1732-02-22,Virginia ,Virginia ,Colonial South,Nonpartisan,21/32,Independent,1793-1797,6,2,Midterm,Peace,Peace
+1796,1796-11-04,1796-12-07,speech,George Washington,1732-02-22,Virginia ,Virginia ,Colonial South,Nonpartisan,21/32,Independent,1793-1797,7,2,Lame Duck ,Peace,Peace
+1797,-,1797-11-22,speech,John Adams,1735-10-30,Massachusettes,Massachusettes,New England,Federalist,22/32,Liberal,1797-1801,1,1,Newly Elected,Peace,Peace
+1798,1798-04-24,1798-12-08,speech,John Adams,1735-10-30,Massachusettes,Massachusettes,New England,Federalist,22/32,Liberal,1797-1801,2,1,Midterm,Peace,Peace
+1799,-,1799-12-03,speech,John Adams,1735-10-30,Massachusettes,Massachusettes,New England,Federalist,22/32,Liberal,1797-1801,3,1,Midterm,Peace,Peace
+1800,1800-10-31,1800-11-11,speech,John Adams,1735-10-30,Massachusettes,Massachusettes,New England,Federalist,22/32,Liberal,1797-1801,4,1,Lame Duck ,Peace,Peace
+1801,-,1801-12-08,written,Thomas Jefferson,1743-04-13,Virginia ,Virginia ,Colonial South,Democratic-Republican,17/34,Conservative,1801-1805,1,1,Newly Elected,Peace,Peace
+1802,1802-04-26,1802-12-15,written,Thomas Jefferson,1743-04-13,Virginia ,Virginia ,Colonial South,Democratic-Republican,17/34,Conservative,1801-1805,2,1,Midterm,Peace,Peace
+1803,-,1803-10-17,written,Thomas Jefferson,1743-04-13,Virginia ,Virginia ,Colonial South,Democratic-Republican,25/34,Conservative,1801-1805,3,1,Midterm,Peace,Peace
+1804,1804-11-02,1804-11-08,written,Thomas Jefferson,1743-04-13,Virginia ,Virginia ,Colonial South,Democratic-Republican,25/34,Conservative,1801-1805,4,1,Reelected,Peace,Peace
+1805,-,1805-12-03,written,Thomas Jefferson,1743-04-13,Virginia ,Virginia ,Colonial South,Democratic-Republican,27/34,Conservative,1805-1809,5,2,Midterm,Peace,Peace
+1806,1806-04-29,1806-12-02,written,Thomas Jefferson,1743-04-13,Virginia ,Virginia ,Colonial South,Democratic-Republican,27/34,Conservative,1805-1809,6,2,Midterm,Peace,Peace
+1807,-,1807-10-27,written,Thomas Jefferson,1743-04-13,Virginia ,Virginia ,Colonial South,Democratic-Republican,28/34,Conservative,1805-1809,7,2,Midterm,Peace,Peace
+1808,1808-11-04,1808-11-08,written,Thomas Jefferson,1743-04-13,Virginia ,Virginia ,Colonial South,Democratic-Republican,28/34,Conservative,1805-1809,8,2,Lame Duck ,Peace,Peace
+1809,-,1809-11-29,written,James Madison,1751-03-16,Virginia ,Virginia ,Colonial South,Democratic-Republican,27/34,Conservative,1809-1813,1,1,Newly Elected,Peace,Peace
+1810,1810-04-24,1810-12-05,written,James Madison,1751-03-16,Virginia ,Virginia ,Colonial South,Democratic-Republican,27/34,Conservative,1809-1813,2,1,Midterm,Peace,Peace
+1811,-,1811-11-05,written,James Madison,1751-03-16,Virginia ,Virginia ,Colonial South,Democratic-Republican,30/36,Conservative,1809-1813,3,1,Midterm,Peace,Peace
+1812,1812-10-30,1812-11-04,written,James Madison,1751-03-16,Virginia ,Virginia ,Colonial South,Democratic-Republican,30/36,Conservative,1809-1813,4,1,Newly Reelected,Declared,War
+1813,-,1813-12-07,written,James Madison,1751-03-16,Virginia ,Virginia ,Colonial South,Democratic-Republican,28/36,Conservative,1813-1817,5,2,Midterm,Declared,War
+1814,1814-04-26,1814-09-20,written,James Madison,1751-03-16,Virginia ,Virginia ,Colonial South,Democratic-Republican,28/36,Conservative,1813-1817,6,2,Midterm,Declared,War
+1815,-,1815-12-05,written,James Madison,1751-03-16,Virginia ,Virginia ,Colonial South,Democratic-Republican,26/38,Conservative,1813-1817,7,2,Midterm,Peace,Peace
+1816,1816-11-01,1816-12-03,written,James Madison,1751-03-16,Virginia ,Virginia ,Colonial South,Democratic-Republican,26/38,Conservative,1813-1817,8,2,Lame Duck ,Peace,Peace
+1817,-,1817-12-12,written,James Monroe,1758-04-28,Virginia ,New York,Colonial South,Democratic-Republican,30/42,Conservative,1817-1821,1,1,Newly Elected,Peace,Peace
+1818,1818-04-26,1818-11-16,written,James Monroe,1758-04-28,Virginia ,New York,Colonial South,Democratic-Republican,30/42,Conservative,1817-1821,2,1,Midterm,Peace,Peace
+1819,-,1819-12-07,written,James Monroe,1758-04-28,Virginia ,New York,Colonial South,Democratic-Republican,37/46,Conservative,1817-1821,3,1,Midterm,Peace,Peace
+1820,1820-11-03,1820-11-14,written,James Monroe,1758-04-28,Virginia ,New York,Colonial South,Democratic-Republican,37/46,Conservative,1817-1821,4,1,Reelected,Peace,Peace
+1821,-,1821-12-03,written,James Monroe,1758-04-28,Virginia ,New York,Colonial South,Democratic-Republican,44/48,Conservative,1821-1825,5,2,Midterm,Peace,Peace
+1822,1822-07-01,1822-12-03,written,James Monroe,1758-04-28,Virginia ,New York,Colonial South,Democratic-Republican,44/48,Conservative,1821-1825,6,2,Midterm,Peace,Peace
+1823,-,1823-12-02,written,James Monroe,1758-04-28,Virginia ,New York,Colonial South,Democratic-Republican,31/48,Conservative,1821-1825,7,2,Midterm,Peace,Peace
+1824,1824-10-29,1824-12-07,written,James Monroe,1758-04-28,Virginia ,New York,Colonial South,Democratic-Republican,31/48,Conservative,1821-1825,8,2,Lame Duck ,Peace,Peace
+1825,-,1825-12-05,written,John Quincy Adams,1767-07-11,Massachusettes,Massachusettes,New England,Democratic-Republican,22/48,Conservative,1825-1829,1,1,Newly Elected,Peace,Peace
+1826,1826-07-03,1826-12-05,written,John Quincy Adams,1767-07-11,Massachusettes,Massachusettes,New England,Democratic-Republican,22/48,Conservative,1825-1829,2,1,Midterm,Peace,Peace
+1827,-,1827-12-04,written,John Quincy Adams,1767-07-11,Massachusettes,Massachusettes,New England,Democratic-Republican,21/48,Conservative,1825-1829,3,1,Midterm,Peace,Peace
+1828,1828-10-31,1828-12-02,written,John Quincy Adams,1767-07-11,Massachusettes,Massachusettes,New England,Democratic-Republican,21/48,Conservative,1825-1829,4,1,Lame Duck ,Peace,Peace
+1829,-,1829-12-08,written,Andrew Jackson,1767-03-15,Carolinas,Tennessee,West,Democratic,25/48,Conservative,1829-1833,1,1,Newly Elected,Peace,Peace
+1830,1830-07-05,1830-12-06,written,Andrew Jackson,1767-03-15,Carolinas,Tennessee,West,Democratic,25/48,Conservative,1829-1833,2,1,Midterm,Peace,Peace
+1831,-,1831-12-06,written,Andrew Jackson,1767-03-15,Carolinas,Tennessee,West,Democratic,24/48,Conservative,1829-1833,3,1,Midterm,Peace,Peace
+1832,1832-11-02,1832-12-04,written,Andrew Jackson,1767-03-15,Carolinas,Tennessee,West,Democratic,24/48,Conservative,1829-1833,4,1,Reelected,Peace,Peace
+1833,-,1833-12-03,written,Andrew Jackson,1767-03-15,Carolinas,Tennessee,West,Democratic,20/48,Conservative,1833-1837,5,2,Midterm,Peace,Peace
+1834,1834-07-07,1834-12-01,written,Andrew Jackson,1767-03-15,Carolinas,Tennessee,West,Democratic,20/48,Conservative,1833-1837,6,2,Midterm,Peace,Peace
+1835,-,1835-12-07,written,Andrew Jackson,1767-03-15,Carolinas,Tennessee,West,Democratic,26/52,Conservative,1833-1837,7,2,Midterm,Peace,Peace
+1836,1836-11-04,1836-12-05,written,Andrew Jackson,1767-03-15,Carolinas,Tennessee,West,Democratic,26/52,Conservative,1833-1837,8,2,Lame Duck ,Peace,Peace
+1837,-,1837-12-05,written,Martin Van Buren,1782-12-05,New York,New York,New England,Democratic,35/52,Conservative,1837-1841,1,1,Newly Elected,Peace,Peace
+1838,1838-07-02,1838-12-03,written,Martin Van Buren,1782-12-05,New York,New York,New England,Democratic,35/52,Conservative,1837-1841,2,1,Midterm,Peace,Peace
+1839,-,1839-12-02,written,Martin Van Buren,1782-12-05,New York,New York,New England,Democratic,30/52,Conservative,1837-1841,3,1,Midterm,Peace,Peace
+1840,1840-10-30,1840-12-05,written,Martin Van Buren,1782-12-05,New York,New York,New England,Democratic,30/52,Conservative,1837-1841,4,1,Lame Duck ,Peace,Peace
+1841,-,1841-12-07,written,John Tyler,1790-03-29,Virginia ,Virginia ,Colonial South,Whig,29/52,Liberal,1841-1845,1,1,Replacement,Peace,Peace
+1842,1842-08-01,1842-12-06,written,John Tyler,1790-03-29,Virginia ,Virginia ,Colonial South,Whig,29/52,Liberal,1841-1845,2,1,Midterm,Peace,Peace
+1843,-,1843-12-06,written,John Tyler,1790-03-29,Virginia ,Virginia ,Colonial South,Whig,29/52,Liberal,1841-1845,3,1,Midterm,Peace,Peace
+1844,1844-11-07,1844-12-03,written,John Tyler,1790-03-29,Virginia ,Virginia ,Colonial South,Whig,29/52,Liberal,1841-1845,4,1,Lame Duck ,Peace,Peace
+1845,-,1845-12-02,written,James K. Polk,1795-11-02,Virginia ,Virginia ,Colonial South,Democratic,34/58,Conservative,1845-1849,1,1,Newly Elected,Peace,Peace
+1846,1846-08-02,1846-12-08,written,James K. Polk,1795-11-02,Virginia ,Virginia ,Colonial South,Democratic,34/58,Conservative,1845-1849,2,1,Midterm,Declared,War
+1847,-,1847-12-07,written,James K. Polk,1795-11-02,Virginia ,Virginia ,Colonial South,Democratic,38/60,Conservative,1845-1849,3,1,Midterm,Declared,War
+1848,1848-11-07,1848-12-05,written,James K. Polk,1795-11-02,Virginia ,Virginia ,Colonial South,Democratic,38/60,Conservative,1845-1849,4,1,Lame Duck ,Peace,Peace
+1849,-,1849-12-04,written,Zachary Taylor,1784-11-24,Virginia ,Washington D.C.,Colonial South,Whig,25/62,Liberal,1849-1850,1,1,Newly Elected,Peace,Peace
+1850,1850-08-05,1850-12-02,written,Millard Fillmore,1800-01-07,New York,New York,New England,Whig,25/62,Liberal,1850-1853,1,0,Replacement,Peace,Peace
+1851,-,1851-12-02,written,Millard Fillmore,1800-01-07,New York,New York,New England,Whig,23/62,Liberal,1850-1853,2,0,Midterm,Peace,Peace
+1852,1852-11-02,1852-12-06,written,Millard Fillmore,1800-01-07,New York,New York,New England,Whig,23/62,Liberal,1850-1853,3,0,Lame Duck ,Peace,Peace
+1853,-,1853-12-05,written,Franklin Pierce,1804-11-23,New Hampshire,New Hampshire,New England,Democratic,38/62,Conservative,1853-1857,1,1,Newly Elected,Peace,Peace
+1854,1854-08-04,1854-12-04,written,Franklin Pierce,1804-11-23,New Hampshire,New Hampshire,New England,Democratic,38/62,Conservative,1853-1857,2,1,Midterm,Peace,Peace
+1855,-,1855-12-31,written,Franklin Pierce,1804-11-23,New Hampshire,New Hampshire,New England,Democratic,39/62,Conservative,1853-1857,3,1,Midterm,Peace,Peace
+1856,1856-12-03,1856-12-02,written,Franklin Pierce,1804-11-23,New Hampshire,New Hampshire,New England,Democratic,39/62,Conservative,1853-1857,4,1,Midterm,Peace,Peace
+1857,-,1857-12-08,written,James Buchanan,1791-04-23,Pennsylvania,Pennsylvania,New England,Democratic,41/66,Conservative,1857-1861,1,1,Newly Elected,Peace,Peace
+1858,1858-08-02,1858-12-19,written,James Buchanan,1791-04-23,Pennsylvania,Pennsylvania,New England,Democratic,41/66,Conservative,1857-1861,2,1,Midterm,Peace,Peace
+1859,-,1859-12-19,written,James Buchanan,1791-04-23,Pennsylvania,Pennsylvania,New England,Democratic,38/66,Conservative,1857-1861,3,1,Midterm,Peace,Peace
+1860,1860-11-06,1860-12-03,written,James Buchanan,1791-04-23,Pennsylvania,Pennsylvania,New England,Democratic,38/66,Conservative,1857-1861,4,1,Lame Duck ,Peace,Peace
+1861,,1861-12-03,written,Abraham Lincoln,1809-02-12,Kentucky,Washington D.C.,North,Republican,31/50,Liberal,1861-1865,1,1,Newly Elected,Peace,War
+1862,1862-06-02,1862-12-01,written,Abraham Lincoln,1809-02-12,Kentucky,Washington D.C.,North,Republican,31/50,Liberal,1861-1865,2,1,Midterm,Peace,War
+1863,,1863-12-08,written,Abraham Lincoln,1809-02-12,Kentucky,Washington D.C.,North,Republican,33/52,Liberal,1861-1865,3,1,Midterm,Peace,War
+1864,1864-11-08,1864-12-06,written,Abraham Lincoln,1809-02-12,Kentucky,Washington D.C.,North,Republican,33/52,Liberal,1861-1865,4,1,Reelected,Peace,War
+1865,-,1865-12-04,written,Andrew Johnson,1809-02-16,North Carolina,Tennessee,South,Republican,39/54,Liberal,1865-1869,1,0,Replacement,Peace,War
+1866,1866-06-04,1866-12-03,written,Andrew Johnson,1809-02-16,North Carolina,Tennessee,South,Republican,39/54,Liberal,1865-1869,2,0,Midterm,Peace,Peace
+1867,-,1867-12-03,written,Andrew Johnson,1809-02-16,North Carolina,Tennessee,South,Republican,57/68,Liberal,1865-1869,3,0,Midterm,Peace,Peace
+1868,1868-12-02,1868-12-09,written,Andrew Johnson,1809-02-16,North Carolina,Tennessee,South,Republican,57/68,Liberal,1865-1869,4,0,Lame Duck ,Peace,Peace
+1869,-,1869-12-06,written,Ulysses S. Grant,1822-04-27,Ohio,New York,North,Republican,62/74,Liberal,1869-1873,1,1,Newly Elected,Peace,Peace
+1870,1870-06-06,1870-12-05,written,Ulysses S. Grant,1822-04-27,Ohio,New York,North,Republican,62/74,Liberal,1869-1873,2,1,Midterm,Peace,Peace
+1871,-,1871-12-04,written,Ulysses S. Grant,1822-04-27,Ohio,New York,North,Republican,56/74,Liberal,1869-1873,3,1,Midterm,Peace,Peace
+1872,1872-11-05,1872-12-02,written,Ulysses S. Grant,1822-04-27,Ohio,New York,North,Republican,56/74,Liberal,1869-1873,4,1,Reelected,Peace,Peace
+1873,-,1873-12-01,written,Ulysses S. Grant,1822-04-27,Ohio,New York,North,Republican,47/74,Liberal,1873-1877,5,2,Midterm,Peace,Peace
+1874,1874-11-03,1874-12-07,written,Ulysses S. Grant,1822-04-27,Ohio,New York,North,Republican,47/74,Liberal,1873-1877,6,2,Midterm,Peace,Peace
+1875,-,1875-12-07,written,Ulysses S. Grant,1822-04-27,Ohio,New York,North,Republican,46/76,Liberal,1873-1877,7,2,Midterm,Peace,Peace
+1876,1876-11-07,1876-12-05,written,Ulysses S. Grant,1822-04-27,Ohio,New York,North,Republican,46/76,Liberal,1873-1877,8,2,Lame Duck ,Peace,Peace
+1877,-,1877-12-03,written,Rutherford B. Hayes,1822-10-04,Ohio,Ohio,North,Republican,40/76,Liberal,1877-1881,1,1,Newly Elected,Peace,Peace
+1878,1878-11-05,1878-12-02,written,Rutherford B. Hayes,1822-10-04,Ohio,Ohio,North,Republican,40/76,Liberal,1877-1881,2,1,Midterm,Peace,Peace
+1879,-,1879-12-01,written,Rutherford B. Hayes,1822-10-04,Ohio,Ohio,North,Republican,33/76,Liberal,1877-1881,3,1,Midterm,Peace,Peace
+1880,1880-11-02,1880-12-06,written,Rutherford B. Hayes,1822-10-04,Ohio,Ohio,North,Republican,33/76,Liberal,1877-1881,4,1,Lame Duck ,Peace,Peace
+1881,-,1881-12-06,written,Chester A. Arthur,1829-10-05,Vermont,New York,New England,Republican,37/76,Liberal,1881-1885,1,1,Replacement,Peace,Peace
+1882,1882-11-07,1882-12-04,written,Chester A. Arthur,1829-10-05,Vermont,New York,New England,Republican,37/76,Liberal,1881-1885,2,1,Midterm,Peace,Peace
+1883,-,1883-12-04,written,Chester A. Arthur,1829-10-05,Vermont,New York,New England,Republican,38/76,Liberal,1881-1885,3,1,Midterm,Peace,Peace
+1884,1884-11-04,1884-12-01,written,Chester A. Arthur,1829-10-05,Vermont,New York,New England,Republican,38/76,Liberal,1881-1885,4,1,Lame Duck ,Peace,Peace
+1885,-,1885-12-08,written,Grover Cleveland,1837-03-18,New Jersey,New Jersey,New England,Democratic,34/76,Conservative,1885-1889,1,1,Newly Elected,Peace,Peace
+1886,1886-11-02,1886-12-06,written,Grover Cleveland,1837-03-18,New Jersey,New Jersey,New England,Democratic,34/76,Conservative,1885-1889,2,1,Midterm,Peace,Peace
+1887,-,1887-12-06,written,Grover Cleveland,1837-03-18,New Jersey,New Jersey,New England,Democratic,37/76,Conservative,1885-1889,3,1,Midterm,Peace,Peace
+1888,1888-11-06,1888-12-03,written,Grover Cleveland,1837-03-18,New Jersey,New Jersey,New England,Democratic,37/76,Conservative,1885-1889,4,1,Lame Duck ,Peace,Peace
+1889,-,1889-12-03,written,Benjamin Harrison,1833-08-20,Ohio,Indiana,North,Republican,51/88,Liberal,1889-1893,1,1,Newly Elected,Peace,Peace
+1890,1890-11-04,1890-12-01,written,Benjamin Harrison,1833-08-20,Ohio,Indiana,North,Republican,51/88,Liberal,1889-1893,2,1,Midterm,Peace,Peace
+1891,-,1891-12-09,written,Benjamin Harrison,1833-08-20,Ohio,Indiana,North,Republican,47/88,Liberal,1889-1893,3,1,Midterm,Peace,Peace
+1892,1892-11-08,1892-12-02,written,Benjamin Harrison,1833-08-20,Ohio,Indiana,North,Republican,47/88,Liberal,1889-1893,4,1,Lame Duck ,Peace,Peace
+1893,-,1893-12-04,written,Grover Cleveland,1837-03-18,New Jersey,New Jersey,New England,Democratic,44/48,Conservative,1893-1897,1,1,Newly Elected,Peace,Peace
+1894,1894-1106,1894-12-03,written,Grover Cleveland,1837-03-18,New Jersey,New Jersey,New England,Democratic,44/48,Conservative,1893-1897,2,1,Midterm,Peace,Peace
+1895,-,1895-12-02,written,Grover Cleveland,1837-03-18,New Jersey,New Jersey,New England,Democratic,40/90,Conservative,1893-1897,3,1,Midterm,Peace,Peace
+1896,1896-11-03,1896-12-07,written,Grover Cleveland,1837-03-18,New Jersey,New Jersey,New England,Democratic,40/90,Conservative,1893-1897,4,1,Lame Duck ,Peace,Peace
+1897,-,1897-12-06,written,William McKinley,1843-01-29,Ohio,New York,North,Republican,44/90,Liberal,1897-1901,1,1,Newly Elected,Peace,Peace
+1898,1898-11-08,1898-12-05,written,William McKinley,1843-01-29,Ohio,New York,North,Republican,44/90,Liberal,1897-1901,2,1,Midterm,Declared,War
+1899,-,1899-12-05,written,William McKinley,1843-01-29,Ohio,New York,North,Republican,53/90,Liberal,1897-1901,3,1,Midterm,Peace,War
+1900,1900-11-06,1900-12-03,written,William McKinley,1843-01-29,Ohio,New York,North,Republican,53/90,Liberal,1897-1901,4,1,Lame Duck ,Peace,War
+1901,-,1901-12-03,written,Theodore Roosevelt,1858-10-27,New York,New York,New England,Republican,56/90,Liberal,1901-1905,1,1,Replacement,Peace,War
+1902,1902-11-04,1902-12-02,written,Theodore Roosevelt,1858-10-27,New York,New York,New England,Republican,56/90,Liberal,1901-1905,2,1,Midterm,Peace,Peace
+1903,-,1903-12-07,written,Theodore Roosevelt,1858-10-27,New York,New York,New England,Republican,57/90,Liberal,1901-1905,3,1,Midterm,Peace,Peace
+1904,1904-11-08,1904-12-06,written,Theodore Roosevelt,1858-10-27,New York,New York,New England,Republican,57/90,Liberal,1901-1905,4,1,Reelected,Peace,Peace
+1905,-,1905-12-05,written,Theodore Roosevelt,1858-10-27,New York,New York,New England,Republican,58/90,Liberal,1905-1909,5,2,Midterm,Peace,Peace
+1906,1906-11-06,1906-12-03,written,Theodore Roosevelt,1858-10-27,New York,New York,New England,Republican,58/90,Liberal,1905-1909,6,2,Midterm,Peace,Peace
+1907,-,1907-12-03,written,Theodore Roosevelt,1858-10-27,New York,New York,New England,Republican,61/92,Liberal,1905-1909,7,2,Midterm,Peace,Peace
+1908,1908-11-03,1908-12-08,written,Theodore Roosevelt,1858-10-27,New York,New York,New England,Republican,61/92,Liberal,1905-1909,8,2,Lame Duck ,Peace,Peace
+1909,-,1909-12-07,written,William Howard Taft,1857-09-15,Ohio,Washington D.C.,North,Republican,60/92,Conservative,1909-1913,1,1,Newly Elected,Peace,Peace
+1910,1910-11-08,1910-12-06,written,William Howard Taft,1857-09-15,Ohio,Washington D.C.,North,Republican,60/92,Conservative,1909-1913,2,1,Midterm,Peace,Peace
+1911,-,1911-12-05,written,William Howard Taft,1857-09-15,Ohio,Washington D.C.,North,Republican,52/96,Conservative,1909-1913,3,1,Midterm,Peace,Peace
+1912,1912-11-05,1912-12-03,written,William Howard Taft,1857-09-15,Ohio,Washington D.C.,North,Republican,52/96,Conservative,1909-1913,4,1,Lame Duck ,Peace,Peace
+1913,-,1913-12-02,speech,Woodrow Wilson,1856-12-28,Virginia ,Washington D.C.,New England,Democratic,51/96,Liberal,1913-1917,1,1,Newly Elected,Peace,Peace
+1914,1914-11-03,1914-12-08,speech,Woodrow Wilson,1856-12-28,Virginia ,Washington D.C.,New England,Democratic,51/96,Liberal,1913-1917,2,1,Midterm,Peace,Peace
+1915,-,1915-12-07,speech,Woodrow Wilson,1856-12-28,Virginia ,Washington D.C.,New England,Democratic,56/96,Liberal,1913-1917,3,1,Midterm,Peace,Peace
+1916,1916-11-07,1916-12-05,speech,Woodrow Wilson,1856-12-28,Virginia ,Washington D.C.,New England,Democratic,56/96,Liberal,1913-1917,4,1,Newly Reelected,Peace,Peace
+1917,-,1917-12-04,speech,Woodrow Wilson,1856-12-28,Virginia ,Washington D.C.,New England,Democratic,54/96,Liberal,1917-1921,5,2,Midterm,Declared,War
+1918,1918-11-05,1918-12-02,speech,Woodrow Wilson,1856-12-28,Virginia ,Washington D.C.,New England,Democratic,54/96,Liberal,1917-1921,6,2,Midterm,Declared,War
+1919,-,1919-12-02,written,Woodrow Wilson,1856-12-28,Virginia ,Washington D.C.,New England,Democratic,47/96,Liberal,1917-1921,7,2,Midterm,Peace,Peace
+1920,1920-11-02,1920-12-07,written,Woodrow Wilson,1856-12-28,Virginia ,Washington D.C.,New England,Democratic,47/96,Liberal,1917-1921,8,2,Lame Duck ,Peace,Peace
+1921,-,1921-12-06,speech,Warren G. Harding,1865-11-02,Ohio,California,North,Republican,59/96,Conservative,1921-1923,1,1,Newly Elected,Peace,Peace
+1922,1922-11-07,1922-12-08,speech,Warren G. Harding,1865-11-02,Ohio,California,North,Republican,59/96,Conservative,1921-1923,2,1,Midterm,Peace,Peace
+1923,-,1923-12-06,speech,Calvin Coolidge,1872-07-04,Vermont,Massachusettes,New England,Republican,53/96,Conservative,1923-1925,1,0,Replacement,Peace,Peace
+1924,1924-11-04,1924-12-03,written,Calvin Coolidge,1872-07-04,Vermont,Massachusettes,New England,Republican,53/96,Conservative,1923-1925,2,0,Newly Elected,Peace,Peace
+1925,,1925-12-08,written,Calvin Coolidge,1872-07-04,Vermont,Massachusettes,New England,Republican,54/96,Conservative,1925-1929,3,1,Midterm,Peace,Peace
+1926,1926-11-02,1926-12-07,written,Calvin Coolidge,1872-07-04,Vermont,Massachusettes,New England,Republican,54/96,Conservative,1925-1929,4,1,Midterm,Peace,Peace
+1927,,1927-12-06,written,Calvin Coolidge,1872-07-04,Vermont,Massachusettes,New England,Republican,48/96,Conservative,1925-1929,5,1,Midterm,Peace,Peace
+1928,1928-11-06,1928-12-04,written,Calvin Coolidge,1872-07-04,Vermont,Massachusettes,New England,Republican,48/96,Conservative,1925-1929,6,1,Lame Duck ,Peace,Peace
+1929,,1929-12-03,written,Herbert Hoover,1874-08-10,Iowa,New York,North,Republican,56/96,Conservative,1929-1933,1,1,Newly Elected,Peace,Peace
+1930,1930-11-04,1930-12-02,written,Herbert Hoover,1874-08-10,Iowa,New York,North,Republican,56/96,Conservative,1929-1933,2,1,Midterm,Peace,Peace
+1931,,1931-12-08,written,Herbert Hoover,1874-08-10,Iowa,New York,North,Republican,48/96,Conservative,1929-1933,3,1,Midterm,Peace,Peace
+1932,1932-11-08,1932-12-06,written,Herbert Hoover,1874-08-10,Iowa,New York,North,Republican,48/96,Conservative,1929-1933,4,1,Lame Duck ,Peace,Peace
+1934,1934-11-06,1934-01-03,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,59/96,Liberal,1933-1937,1,1,Midterm,Peace,Peace
+1935,,1935-01-04,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,69/96,Liberal,1933-1937,2,1,Midterm,Peace,Peace
+1936,1936-11-03,1936-01-03,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,69/96,Liberal,1933-1937,3,1,Midterm,Peace,Peace
+1937,,1937-01-06,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,76/96,Liberal,1937-1941,4,2,Reelected,Peace,Peace
+1938,1938-11-08,1938-01-03,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,76/96,Liberal,1937-1941,5,2,Midterm,Peace,Peace
+1939,,1939-01-04,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,69/96,Liberal,1937-1941,6,2,Midterm,Peace,Peace
+1940,1940-11-05,1940-01-03,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,69/96,Liberal,1937-1941,7,2,Reelected,Peace,Peace
+1941,,1941-01-06,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,66/96,Liberal,1941-1945,8,3,Midterm,Peace,Peace
+1942,1942-11-03,1942-01-06,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,66/96,Liberal,1941-1945,9,3,Midterm,Declared,War
+1943,,1943-01-07,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,57/96,Liberal,1941-1945,10,3,Midterm,Declared,War
+1944,1944-11-07,1944-01-11,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,57/96,Liberal,1941-1945,11,3,Reelected,Declared,War
+1945,,1945-01-06,speech,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,57/96,Liberal,1945,12,4,Midterm,Declared,War
+1945,,1945-01-06,written,Franklin D. Roosevelt,1882-01-30,New York,Georgia,New England,Democratic,57/96,Liberal,1945,12,4,Midterm,Declared,War
+1946,1946-11-05,1946-01-21,written,Harry S Truman,1884-05-08,Missouri,Missouri,South,Democratic,57/96,Liberal,1945-1949,1,0,Replacement,Peace,Peace
+1947,,1947-01-06,speech,Harry S Truman,1884-05-08,Missouri,Missouri,South,Democratic,45/96,Liberal,1945-1949,2,0,Midterm,Peace,Peace
+1948,1948-11-02,1948-01-07,speech,Harry S Truman,1884-05-08,Missouri,Missouri,South,Democratic,45/96,Liberal,1945-1949,3,0,Midterm,Peace,Peace
+1949,,1949-01-05,speech,Harry S Truman,1884-05-08,Missouri,Missouri,South,Democratic,54/96,Liberal,1949-1953,4,1,Reelected,Peace,Peace
+1950,1950-11-07,1950-01-04,speech,Harry S Truman,1884-05-08,Missouri,Missouri,South,Democratic,54/96,Liberal,1949-1953,5,1,Midterm,Peace,Peace
+1951,,1951-01-08,speech,Harry S Truman,1884-05-08,Missouri,Missouri,South,Democratic,48/96,Liberal,1949-1953,6,1,Midterm,Peace,War
+1952,1952-11-04,1952-01-09,speech,Harry S Truman,1884-05-08,Missouri,Missouri,South,Democratic,48/96,Liberal,1949-1953,7,1,Reelected,Peace,War
+1953,,1953-02-02,written,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,48/96,Conservative,1953-1957,1,1,Midterm,Peace,War
+1953,,1953-01-07,written,Harry S Truman,1884-05-08,Missouri,Missouri,South,Democratic,47/96,Liberal,1949-1953,8,1,Midterm,Peace,War
+1954,1954-11-02,1954-01-07,speech,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,48/96,Conservative,1953-1957,2,1,Midterm,Peace,Peace
+1955,,1955-01-06,speech,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,47/96,Conservative,1953-1957,3,1,Midterm,Peace,Peace
+1956,1956-11-06,1956-01-05,speech,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,47/96,Conservative,1953-1957,4,1,Midterm,Peace,Peace
+1956,1956-11-06,1956-01-06,written,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,47/96,Conservative,1953-1957,4,1,Midterm,Peace,Peace
+1957,,1957-01-10,speech,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,47/96,Conservative,1957-1961,5,2,Newly Elected,Peace,Peace
+1958,1958-11-04,1958-01-09,speech,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,47/96,Conservative,1957-1961,6,2,Midterm,Peace,Peace
+1959,,1959-01-09,speech,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,35/100,Conservative,1957-1961,7,2,Midterm,Peace,Peace
+1960,1960-11-08,1960-01-07,speech,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,35/100,Conservative,1957-1961,8,2,Midterm,Peace,Peace
+1961,,1961-01-30,written,John F. Kennedy,5/29/17,Massachusettes,Texas,New England,Democratic,64/100,Liberal,1961-1963,1,1,Newly Elected,Peace,Peace
+1961,,1961-01-12,written,Dwight D. Eisenhower,1890-10-14,Texas,Washington D.C.,South,Republican,36/100,Conservative,1957-1961,9,2,Lame Duck ,Peace,Peace
+1962,1962-11-06,1962-11-30,speech,John F. Kennedy,5/29/17,Massachusettes,Texas,New England,Democratic,64/100,Liberal,1961-1963,2,1,Midterm,Peace,Peace
+1963,,1963-01-14,speech,John F. Kennedy,5/29/17,Massachusettes,Texas,New England,Democratic,66/100,Liberal,1961-1963,3,1,Midterm,Peace,Peace
+1964,1964-11-03,1964-01-08,speech,Lyndon B. Johnson,8/27/08,Texas,Texas,South,Democratic,66/100,Liberal,1964-1965,1,0,Ascended,Peace,Peace
+1965,,1965-01-04,speech,Lyndon B. Johnson,8/27/08,Texas,Texas,South,Democratic,68/100,Liberal,1965-1969,2,1,Midterm,Peace,Peace
+1966,1966-11-08,1966-01-12,speech,Lyndon B. Johnson,8/27/08,Texas,Texas,South,Democratic,68/100,Liberal,1965-1969,3,1,Midterm,Peace,War
+1967,,1967-01-10,speech,Lyndon B. Johnson,8/27/08,Texas,Texas,South,Democratic,64/100,Liberal,1965-1969,4,1,Midterm,Peace,War
+1968,1968-11-05,1968-01-17,speech,Lyndon B. Johnson,8/27/08,Texas,Texas,South,Democratic,64/100,Liberal,1965-1969,5,1,Midterm,Peace,War
+1969,,1969-01-14,written,Lyndon B. Johnson,8/27/08,Texas,Texas,South,Democratic,57/100,Liberal,1965-1969,6,2,Lame Duck ,Peace,War
+1970,1970-11-03,1970-01-22,speech,Richard M. Nixon,1/9/13,Callifornia,New York,Pacific,Republican,43/100,Conservative,1969-1973,1,0,Newly Elected,Peace,War
+1971,,1971-01-22,speech,Richard M. Nixon,1/9/13,Callifornia,New York,Pacific,Republican,44/100,Conservative,1969-1973,2,0,Midterm,Peace,War
+1972,1972-11-07,1972-01-20,speech,Richard M. Nixon,1/9/13,Callifornia,New York,Pacific,Republican,44/100,Conservative,1969-1973,3,0,Midterm,Peace,War
+1972,1972-11-07,1972-01-20,written,Richard M. Nixon,1/9/13,Callifornia,New York,Pacific,Republican,44/100,Conservative,1969-1973,3,0,Midterm,Peace,War
+1974,1974-11-05,1974-01-30,speech,Richard M. Nixon,1/9/13,Callifornia,New York,Pacific,Republican,42/100,Conservative,1973-1974,5,1,Midterm,Peace,War
+1974,1974-11-05,1974-01-30,written,Richard M. Nixon,1/9/13,Callifornia,New York,Pacific,Republican,42/100,Conservative,1973-1974,5,1,Midterm,Peace,War
+1975,,1975-01-15,speech,Gerald R. Ford,7/14/13,Nebraska,California,West,Republican,37/100,Conservative,1974-1977,1,0,Midterm,Peace,War
+1976,1976-11-02,1976-01-19,speech,Gerald R. Ford,7/14/13,Nebraska,California,West,Republican,37/100,Conservative,1974-1977,2,0,Midterm,Peace,Peace
+1977,,1977-01-12,written,Gerald R. Ford,7/14/13,Nebraska,California,West,Republican,38/100,Conservative,1974-1977,3,0,Newly Reelected,Peace,Peace
+1978,1978-11-07,1978-01-19,speech,Jimmy Carter,10/1/24,Georgia,-,South,Democratic,61/100,Liberal,1977-1981,1,1,Midterm,Peace,Peace
+1978,1978-11-07,1978-01-19,written,Jimmy Carter,10/1/24,Georgia,-,South,Democratic,61/100,Liberal,1977-1981,1,1,Midterm,Peace,Peace
+1979,,1979-01-25,speech,Jimmy Carter,10/1/24,Georgia,-,South,Democratic,58/100,Liberal,1977-1981,2,1,Midterm,Peace,Peace
+1979,,1979-01-25,written,Jimmy Carter,10/1/24,Georgia,-,South,Democratic,58/100,Liberal,1977-1981,2,2,Midterm,Peace,Peace
+1980,1980-11-04,1980-01-21,speech,Jimmy Carter,10/1/24,Georgia,-,South,Democratic,58/100,Liberal,1977-1981,3,2,Midterm,Peace,Peace
+1980,1980-11-04,1980-01-21,written,Jimmy Carter,10/1/24,Georgia,-,South,Democratic,58/100,Liberal,1977-1981,3,2,Midterm,Peace,Peace
+1981,,1981,speech,Ronald Reagan,2/6/11,Illinois,California,Pacific,Republican,53/100,Conservative,1981-1985,1,1,Midterm,Peace,Peace
+1981,,1981-01-16,written,Jimmy Carter,6/12/24,Georgia,-,South,Democratic,46/100,Liberal,1977-1981,4,2,Reelected,Peace,Peace
+1982,1982-11-02,1982-01-26,speech,Ronald Reagan,2/6/11,Illinois,California,Pacific,Republican,53/100,Conservative,1981-1985,2,1,Midterm,Peace,Peace
+1983,,1983-01-25,speech,Ronald Reagan,2/6/11,Illinois,California,Pacific,Republican,55/100,Conservative,1981-1985,3,1,Midterm,Peace,Peace
+1984,1984-11-06,1984-01-25,speech,Ronald Reagan,2/6/11,Illinois,California,Pacific,Republican,55/100,Conservative,1981-1985,4,1,Midterm,Peace,Peace
+1985,,1985-02-06,speech,Ronald Reagan,2/6/11,Illinois,California,Pacific,Republican,53/100,Conservative,1985-1989,5,2,Reelected,Peace,Peace
+1986,1986-11-04,1986-02-04,speech,Ronald Reagan,2/6/11,Illinois,California,Pacific,Republican,53/100,Conservative,1985-1989,6,2,Midterm,Peace,Peace
+1987,,1987-01-27,speech,Ronald Reagan,2/6/11,Illinois,California,Pacific,Republican,45/100,Conservative,1985-1989,7,2,Midterm,Peace,Peace
+1988,1988-11-08,1988-01-25,speech,Ronald Reagan,2/6/11,Illinois,California,Pacific,Republican,45/100,Conservative,1985-1989,8,2,Midterm,Peace,Peace
+1989,,1989-02-09,speech,George Bush,6/12/24,Massachusettes,-,South,Republican,45/100,Conservative,1989-1993,1,1,Midterm,Peace,Peace
+1990,1990-11-06,1990-01-31,speech,George Bush,6/12/24,Massachusettes,-,South,Republican,45/100,Conservative,1989-1993,2,1,Midterm,Peace,Peace
+1991,,1991-01-29,speech,George Bush,6/12/24,Massachusettes,-,South,Republican,44/100,Conservative,1989-1993,3,1,Midterm,Peace,War
+1992,1992-11-03,1992-01-28,speech,George Bush,6/12/24,Massachusettes,-,South,Republican,44/100,Conservative,1989-1993,4,1,Midterm,Peace,Peace
+1993,,1993-02-17,speech,William J. Clinton,8/19/46,Arkansas ,-,South,Democratic,57/100,Liberal,1993-1997,1,1,Newly Elected,Peace,Peace
+1994,1994-11-08,1994-01-25,speech,William J. Clinton,8/19/46,Arkansas ,-,South,Democratic,57/100,Liberal,1993-1997,2,1,Midterm,Peace,Peace
+1995,,1995-01-24,speech,William J. Clinton,8/19/46,Arkansas ,-,South,Democratic,48/200,Liberal,1993-1997,3,1,Midterm,Peace,Peace
+1996,1996-11-05,1996-01-23,speech,William J. Clinton,8/19/46,Arkansas ,-,South,Democratic,48/100,Liberal,1993-1997,4,1,Midterm,Peace,Peace
+1997,,1997-02-04,speech,William J. Clinton,8/19/46,Arkansas ,-,South,Democratic,45/100,Liberal,1997-2001,5,2,Reelected,Peace,Peace
+1998,1998-11-03,1998-01-27,speech,William J. Clinton,8/19/46,Arkansas ,-,South,Democratic,45/100,Liberal,1997-2001,6,2,Midterm,Peace,Peace
+1999,,1999-01-19,speech,William J. Clinton,8/19/46,Arkansas ,-,South,Democratic,45/100,Liberal,1997-2001,7,2,Midterm,Peace,Peace
+2000,2000-11-07,2000-01-27,speech,William J. Clinton,8/19/46,Arkansas ,-,South,Democratic,45/100,Liberal,1997-2001,8,2,Midterm,Peace,Peace
+2001,,2001-02-27,speech,George W. Bush,7/6/46,Connecticut,-,South,Republican,50/100,Conservative,2001-2005,1,1,Newly Elected,Peace,Peace
+2002,2002-11-05,2002-01-29,speech,George W. Bush,7/6/46,Connecticut,-,South,Republican,50/100,Conservative,2001-2005,2,1,Midterm,Peace,War
+2003,,2003-02-28,speech,George W. Bush,7/6/46,Connecticut,-,South,Republican,51/100,Conservative,2001-2005,3,1,Midterm,Peace,War
+2004,2004-11-02,2004-01-24,speech,George W. Bush,7/6/46,Connecticut,-,South,Republican,51/100,Conservative,2001-2005,4,1,Midterm,Peace,War
+2005,,2005-02-02,speech,George W. Bush,7/6/46,Connecticut,-,South,Republican,55/100,Conservative,2005-2009,5,2,Reelected,Peace,War
+2006,2006-11-07,2006-01-31,speech,George W. Bush,7/6/46,Connecticut,-,South,Republican,55/100,Conservative,2005-2009,6,2,Midterm,Peace,War
+2007,,2007-01-23,speech,George W. Bush,7/6/46,Connecticut,-,South,Republican,49/100,Conservative,2005-2009,7,2,Midterm,Peace,War
+2008,2008-11-04,2008-01-28,speech,George W. Bush,7/6/46,Connecticut,-,South,Republican,49/100,Conservative,2005-2009,8,2,Midterm,Peace,War
+2009,,2009-02-24,speech,Barack Obama,8/4/61,Hawaii,-,North,Democratic,57/100,Liberal,2009-2013,1,1,Newly Elected,Peace,War
+2010,2010-11-02,2010-01-27,speech,Barack Obama,8/4/61,Hawaii,-,North,Democratic,57/100,Liberal,2009-2013,2,1,Midterm,Peace,War
+2011,,2011-01-25,speech,Barack Obama,8/4/61,Hawaii,-,North,Democratic,51/100,Liberal,2009-2013,3,1,Midterm,Peace,War
+2012,2012-11-06,2012-01-24,speech,Barack Obama,8/4/61,Hawaii,-,North,Democratic,51/100,Liberal,2009-2013,4,1,Midterm,Peace,War
+2013,,2013-02-12,speech,Barack Obama,8/4/61,Hawaii,-,North,Democratic,53/100,Liberal,2013-2016,5,2,Reelected,Peace,War
+2014,2014-11-04,2014-01-28,speech,Barack Obama,8/4/61,Hawaii,-,North,Democratic,53/100,Liberal,2013-2016,6,2,Midterm,Peace,War
+2015,,2015-01-20,speech,Barack Obama,8/4/61,Hawaii,-,North,Democratic,44/100,Liberal,2013-2016,7,2,Midterm,Peace,War
+2016,2016-11-08,2016-01-12,speech,Barack Obama,8/4/61,Hawaii,-,North,Democratic,44/100,Liberal,2013-2016,8,2,Midterm,Peace,War
