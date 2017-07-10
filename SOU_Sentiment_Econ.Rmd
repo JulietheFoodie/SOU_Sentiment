@@ -51,6 +51,7 @@ addrow_1973 <- data.frame(year = "1973",
                           death_state = "New York",
                           affil_region = "Pacific",
                           party = "Republican",
+                          cong_sup = "42/100",
                           relative_ideology = "Conservative",
                           years_active = "1973-1974", 
                           year_num = "4",
@@ -103,7 +104,7 @@ NROW(sotu_df)
 ```{r}
 sotu_df["116", "text"] = read_file("~/Documents/Research/SOU_Sentiment/TR_04.txt")
 
-as.character(sotu_df[116, 18])
+as.character(sotu_df[116, 19])
 ```
 
 
@@ -112,7 +113,7 @@ as.character(sotu_df[116, 18])
 ```{r}
 sotu_df["198", "text"] = read_file("~/Documents/Research/SOU_Sentiment/Reagan_82.txt")
 
-as.character(sotu_df[198, 18])
+as.character(sotu_df[198, 19])
 ```
 
 - Add speech text to George W. Bush 2003. Speech source will be the Gutenberg Library text. 
@@ -120,7 +121,7 @@ as.character(sotu_df[198, 18])
 ```{r}
 sotu_df["219", "text"] = read_file("~/Documents/Research/SOU_Sentiment/WBush_03.txt")
 
-as.character(sotu_df[219, 18])
+as.character(sotu_df[219, 19])
 ```
 
 - Add speech text to Barack Obama 2011. Speech Source speech will be the Gutenberg Library text. 
@@ -128,7 +129,7 @@ as.character(sotu_df[219, 18])
 ```{r}
 sotu_df["227", "text"] = read_file("~/Documents/Research/SOU_Sentiment/Obama_11.txt")
 
-as.character(sotu_df[227, 18])
+as.character(sotu_df[227, 19])
 ```
 
 - Add speech text to Barack Obama 2016. Speech source will be the Gutenberg Library text. 
@@ -136,7 +137,7 @@ as.character(sotu_df[227, 18])
 ```{r}
 sotu_df["232", "text"] = read_file("~/Documents/Research/SOU_Sentiment/Obama_11.txt")
 
-as.character(sotu_df[232, 18])
+as.character(sotu_df[232, 19])
 ```
 
 ## Test for Uniqueness 
