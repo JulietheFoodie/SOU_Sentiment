@@ -23,7 +23,7 @@ We are exporting sotu_meta to add the variables age, etc. to the data frame.
 ```{r}
 write.csv(sotu_meta, file = "DFExport.csv")
 
-sotu_clean_df <-read.csv("~/Documents/Research/SOU_Sentiment/DFImport.csv")
+sotu_clean_df <-read.csv("DFImport.csv")
 
 ```
 
@@ -59,7 +59,7 @@ addrow_1973 <- data.frame(year = "1973",
                           term_type = "Midterm",
                           decl_war = "Peace",
                           va_wars = "War",
-                          text = read_file("~/Documents/Research/SOU_Sentiment/Nixon_73.txt"))
+                          text = read_file("Nixon_73.txt"))
 
 sotu_df <- rbind(sotu_df, addrow_1973)
 
@@ -102,7 +102,7 @@ NROW(sotu_df)
 - Add speech text to Theodore Roosevelt 1904. Speech Source will be the Gutenberg Library text. 
 
 ```{r}
-sotu_df["116", "text"] = read_file("~/Documents/Research/SOU_Sentiment/TR_04.txt")
+sotu_df["116", "text"] = read_file("TR_04.txt")
 
 as.character(sotu_df[116, 19])
 ```
@@ -111,7 +111,7 @@ as.character(sotu_df[116, 19])
 - Add speech text to Ronald Regan 1982. Speech Source will be the Gutenberg Library text. 
 
 ```{r}
-sotu_df["198", "text"] = read_file("~/Documents/Research/SOU_Sentiment/Reagan_82.txt")
+sotu_df["198", "text"] = read_file("Reagan_82.txt")
 
 as.character(sotu_df[198, 19])
 ```
@@ -119,7 +119,7 @@ as.character(sotu_df[198, 19])
 - Add speech text to George W. Bush 2003. Speech source will be the Gutenberg Library text. 
 
 ```{r}
-sotu_df["219", "text"] = read_file("~/Documents/Research/SOU_Sentiment/WBush_03.txt")
+sotu_df["219", "text"] = read_file("WBush_03.txt")
 
 as.character(sotu_df[219, 19])
 ```
@@ -127,7 +127,7 @@ as.character(sotu_df[219, 19])
 - Add speech text to Barack Obama 2011. Speech Source speech will be the Gutenberg Library text. 
 
 ```{r}
-sotu_df["227", "text"] = read_file("~/Documents/Research/SOU_Sentiment/Obama_11.txt")
+sotu_df["227", "text"] = read_file("Obama_11.txt")
 
 as.character(sotu_df[227, 19])
 ```
@@ -135,7 +135,7 @@ as.character(sotu_df[227, 19])
 - Add speech text to Barack Obama 2016. Speech source will be the Gutenberg Library text. 
 
 ```{r}
-sotu_df["232", "text"] = read_file("~/Documents/Research/SOU_Sentiment/Obama_11.txt")
+sotu_df["232", "text"] = read_file("Obama_16.txt")
 
 as.character(sotu_df[232, 19])
 ```
