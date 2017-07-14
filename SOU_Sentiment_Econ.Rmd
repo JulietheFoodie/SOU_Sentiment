@@ -1,5 +1,5 @@
 ---
-title: "State of the Union Sentiment Anylasis and Economic Data"
+title: "State of the Union Sentiment Anylasis and Historical Data Evaluation"
 author: "Julie Norman"
 output: html_notebook
 ---
@@ -67,6 +67,14 @@ NROW(sotu_df)
 
 ```
 
+- In 1945 Franklin Delanor Roosevelt offered two different versions of the 1945 State of the Union. According to the Gutenberg library and the American Presidency Project the spoken speech is the more accurate one. We will use that speech for our analysis
+```{r}
+sotu_df <- sotu_df %>% 
+  filter(!(year == 1945 & sotu_type == "speech"))
+NROW(sotu_df)
+  
+```
+
 - In 1956 Dwight D. Eisenhower gave two versions of the State of the Union. One that was recorded and broadcast to the public, the other was an address given to a joint session of Congress. The latter speech will be used for the general analysis since the congression address is considered the "official" State of the Union and will be a more accurate representation in our analysis. 
 ```{r}
 sotu_df <- sotu_df %>% 
@@ -95,10 +103,27 @@ NROW(sotu_df)
 - It is unknown why there are two address listed in 1979. According to the Gutenberg library and the American Presidency Project the  actual state of the union is one of the two. That is the one we'll use for our analysis. 
 ```{r}
 sotu_df <- sotu_df %>% 
+  filter(!(year == 1978 & sotu_type == "written"))
+NROW(sotu_df)
+  
+```
+
+- It is unknown why there are two address listed in 1979. According to the Gutenberg library and the American Presidency Project the  actual state of the union is one of the two. That is the one we'll use for our analysis. 
+```{r}
+sotu_df <- sotu_df %>% 
   filter(!(year == 1979 & sotu_type == "written"))
 NROW(sotu_df)
   
 ```
+
+- It is unknown why there are two address listed in 1979. According to the Gutenberg library and the American Presidency Project the  actual state of the union is one of the two. That is the one we'll use for our analysis. 
+```{r}
+sotu_df <- sotu_df %>% 
+  filter(!(year == 1980 & sotu_type == "written"))
+NROW(sotu_df)
+  
+```
+
 - Add speech text to Theodore Roosevelt 1904. Speech Source will be the Gutenberg Library text. 
 
 ```{r}
@@ -116,6 +141,12 @@ sotu_df["198", "text"] = read_file("Reagan_82.txt")
 as.character(sotu_df[198, 19])
 ```
 
+```{r}
+sotu_df["198", "text"] = read_file("Reagan_84.txt")
+
+as.character(sotu_df[198, 19])
+```
+
 - Add speech text to George W. Bush 2003. Speech source will be the Gutenberg Library text. 
 
 ```{r}
@@ -124,10 +155,26 @@ sotu_df["219", "text"] = read_file("WBush_03.txt")
 as.character(sotu_df[219, 19])
 ```
 
+- Add speech text to George W. Bush 2005. Speech source will be the Gutenberg Library text. 
+
+```{r}
+sotu_df["219", "text"] = read_file("WBush_05.txt")
+
+as.character(sotu_df[219, 19])
+```
+
 - Add speech text to Barack Obama 2011. Speech Source speech will be the Gutenberg Library text. 
 
 ```{r}
 sotu_df["227", "text"] = read_file("Obama_11.txt")
+
+as.character(sotu_df[225, 19])
+```
+
+- Add speech text to Barack Obama 2013. Speech source will be the Gutenberg Library text. 
+
+```{r}
+sotu_df["232", "text"] = read_file("Obama_13.txt")
 
 as.character(sotu_df[227, 19])
 ```
@@ -140,6 +187,22 @@ sotu_df["232", "text"] = read_file("Obama_16.txt")
 as.character(sotu_df[232, 19])
 ```
 
+## Add Econ Data
+
+We will export the clean data set to properly format the economic data import. 
+
+```{r}
+write.csv(sotu_df, file = "DFExport2.csv")
+```
+
+## Data Upload
+
+The economic data we will use is sourced from the Federal Reserve Economic Data out of the St. Louis Federal Reserve
+
+```{r}
+econ_df <-read.csv("Econ_Data_Import.csv")
+```
+
 ## Test for Uniqueness 
 ```{r}
 ColumnGrab <- sotu_df %>% 
@@ -147,10 +210,7 @@ ColumnGrab <- sotu_df %>%
   duplicated()
 ```
 
-## View Speech Text 
-```{r}
-as.character(sotu_df[1, 6])
-```
+
 
 
 
