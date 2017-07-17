@@ -1,0 +1,40 @@
+---
+title: "Add sentiment colulmns"
+author: "Sean Raleigh"
+date: "July 17, 2017"
+output: html_document
+---
+
+## Preliminaries
+
+```{r}
+library(tidyverse)
+library(tidytext)
+```
+
+
+## Import data
+
+```{r}
+SOU_df <- read.csv("DFExport2.csv")
+str(SOU_df)
+```
+
+
+## Subset data for testing
+
+To give us a reasonably sized data frame, let's just take the first five rows:
+
+```{r}
+SOU_df_small <- SOU_df[1:5,]
+str(SOU_df_small)
+```
+
+
+## Unnest tokens
+
+```{r}
+SOU_df2 <- SOU_df_small %>%
+  mutate(tokens =  map(text, ~ unnest_tokens(.x, word, text)))
+str(SOU_df2)
+```
