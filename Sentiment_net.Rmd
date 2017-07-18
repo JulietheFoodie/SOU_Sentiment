@@ -1,5 +1,5 @@
 ---
-title: "Add sentiment colulmns"
+title: "Add sentiment columns"
 author: "Sean Raleigh"
 date: "July 17, 2017"
 output: html_document
@@ -20,85 +20,27 @@ SOU_df <- read_csv("DFExport2.csv")
 ```
 
 
-## Unnest tokens
+## Tokenize and summarize
 
-```{r}
+```{r, message = FALSE}
 SOU_df2 <- SOU_df %>%
-  mutate(text = map(text, as_data_frame),
-         tokens = map(text, ~ unnest_tokens(.x, word, value)))
-```
-
-## Count
-
-```{r}
-SOU_df3 <- SOU_df2 %>%
-  mutate(words_before = unlist(map(tokens, ~ NROW(.x))))
-str(SOU_df3$words_before)
-```
-
-## Remove stop words
-
-```{r}
-SOU_df4 <- SOU_df3 %>%
-  mutate(tokens_stop = map(tokens,
-                           ~ anti_join(.x, stop_words)))
-str(SOU_df4$tokens_stop)
-```
-
-## Count again
-
-```{r}
-SOU_df5 <- SOU_df4 %>%
-  mutate(words_stop = unlist(map(tokens_stop, ~ NROW(.x))))
-str(SOU_df5$words_stop)
-```
-
-## Sentiment analysis
-
-```{r}
-SOU_df6 <- SOU_df5 %>%
-  mutate(tokens_sentiments = map(tokens_stop,
-                           ~ inner_join(.x, get_sentiments("afinn"))))
-```
-
-
-## Count yet again
-
-```{r}
-SOU_df7 <- SOU_df6 %>%
-  mutate(words_after = unlist(map(tokens_sentiments, ~ NROW(.x))))
-str(SOU_df7$words_after)
-```
-
-
-## Get final counts
-
-```{r}
-SOU_df8 <- SOU_df7 %>%
-  mutate(final_positive_count = unlist(map(tokens_sentiments, 
-                                    ~ NROW(filter(.x, score > 0)))),
-         final_negative_count = unlist(map(tokens_sentiments, 
-                                    ~ NROW(filter(.x, score < 0)))))
-str(SOU_df8$final_positive_count)
-str(SOU_df8$final_negative_count)
-```
-
-
-## Get scores
-
-```{r}
-SOU_df9 <- SOU_df8 %>%
-  mutate(final_positive_score = map(tokens_sentiments,
-                            ~ unname(unlist(summarise(filter(.x, score > 0),
-                                                sum(score))))),
-         final_positive_score = unlist(final_positive_score),
-         final_negative_score = map(tokens_sentiments,
-                            ~ unname(unlist(summarise(filter(.x, score < 0),
-                                                sum(score))))),
-         final_negative_score = unlist(final_negative_score),
-         final_net_score = final_positive_score + final_negative_score)
-str(SOU_df9$final_positive_score)
-str(SOU_df9$final_negative_score)
-str(SOU_df9$final_net_score)
+  mutate(text = map(text, as_data_frame), # unnest_tokens need data frame
+         tokens = map(text, ~ unnest_tokens(.x, word, value)), # unnest
+         count_before = map_int(tokens, ~ NROW(.x)), # count words
+         tokens_stop = map(tokens,
+            ~ anti_join(.x, stop_words)), # remove stopwords
+         count_stop = map_int(tokens_stop, ~ NROW(.x)), # count words
+         tokens_sent = map(tokens_stop,
+            ~ inner_join(.x, get_sentiments("afinn"))), # sentiment analysis
+         count_final = map_int(tokens_sent, ~ NROW(.x)), # count words
+         count_final_pos = map_int(tokens_sent, 
+            ~ NROW(filter(.x, score > 0))), # count positive words
+         count_final_neg = map_int(tokens_sent, 
+            ~ NROW(filter(.x, score < 0))), # count negative words
+         score_pos = map_int(tokens_sent,
+            ~ unlist(summarise(filter(.x, score > 0), sum(score)))),
+         score_neg = map_int(tokens_sent,
+            ~ unlist(summarise(filter(.x, score < 0), sum(score)))),
+         net_score = score_pos + score_neg)
 ```
 
