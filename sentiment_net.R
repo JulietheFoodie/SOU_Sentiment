@@ -20,5 +20,13 @@ sentiment_net <- function(SOU) {
     filter(score < 0) %>%
     summarise(total = sum(score))
   final_net_score <- final_positive_score$total + final_negative_score$total
+  output = list(words_before,
+                words_after,
+                final_positive_count,
+                final_positive_score,
+                final_negative_count,
+                final_negative_score,
+                final_net_score)
+  return(output)
   }
 
