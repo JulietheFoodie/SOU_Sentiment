@@ -10,20 +10,23 @@ output: html_document
 ```{r}
 library(tidyverse)
 library(tidytext)
+library(sotu)
+library(readr)
+library(ggplot2)
 ```
 
 
 ## Import data
 
 ```{r}
-SOU_df <- read_csv("DFExport2.csv")
+sou_df <- read_csv("DFExport2.csv")
 ```
 
 
 ## Tokenize and summarize
 
 ```{r, message = FALSE}
-SOU_df2 <- SOU_df %>%
+sou_df2 <- sou_df %>%
   mutate(text = map(text, as_data_frame), # unnest_tokens need data frame
          tokens = map(text, ~ unnest_tokens(.x, word, value)), # unnest
          count_before = map_int(tokens, ~ NROW(.x)), # count words
@@ -42,5 +45,45 @@ SOU_df2 <- SOU_df %>%
          score_neg = map_int(tokens_sent,
             ~ unlist(summarise(filter(.x, score < 0), sum(score)))),
          net_score = score_pos + score_neg)
+NROW(sou_df2)
 ```
+
+## Graphs (finally)
+
+```{r}
+sou_graph_df <- sou_df2 %>% 
+  filter(!(year == 1953 & birth_state == "Texas")) %>%
+  filter(!(year == 1961 & birth_state == "Texas")) %>%
+  filter(!(year == 1981 & birth_state == "Illinois" ))
+  
+
+```
+
+```{r}
+attach(sou_graph_df)
+plot(year, net_score, main="Sentiment by year", 
+  	xlab="Year", ylab="Sentiment Score")
+```
+
+```{r}
+plot(year, count_final, main="Count Used for Analysis", 
+  	xlab="Year", ylab="Final Count")
+```
+
+```{r}
+sou_graph_df$perc_used <- (sou_graph_df$count_before / sou_graph_df$count_final)
+perc_used <- sou_graph_df$perc_used
+```
+
+```{r}
+plot(year, perc_used, main="Percent of Words used for Analysis", 
+  	xlab="Year", ylab="Percent")
+```
+
+
+
+
+
+
+
 
