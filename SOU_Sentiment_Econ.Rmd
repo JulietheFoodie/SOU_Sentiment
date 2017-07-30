@@ -14,6 +14,7 @@ library(tidytext)
 library(tidyverse)
 library(sotu)
 library(readr)
+library(lubridate)
 ```
 
 ##Export 
@@ -43,7 +44,7 @@ str(sotu_df)
 ```{r}
 addrow_1973 <- data.frame(year = "1973",
                           elect_date = "",
-                          sou_date = "1973-02-02",
+                          sotu_date = "1973-02-02",
                           sotu_type = "written",
                           president = "Richard M. Nixon",
                           birth_date = "1913-01-09",
@@ -106,7 +107,6 @@ sotu_df <- sotu_df %>%
   filter(!(year == 1978 & sotu_type == "written"))
 NROW(sotu_df)
 ````
-```
 
 - It is unknown why there are two address listed in 1979. According to the Gutenberg library and the American Presidency Project the  actual state of the union is one of the two. That is the one we'll use for our analysis. 
 ```{r}
@@ -185,6 +185,20 @@ sotu_df["232", "text"] = read_file("Obama_16.txt")
 
 as.character(sotu_df[232, 19])
 ```
+
+## Convert Dates
+
+``{r}
+
+
+sotu_df$elect_date <- as_date(sotu_df$elect_date, tz = "UTC")
+
+sotu_df$sotu_date <- as.Date(sotu_df$sotu_date, "%y-%m-%d")
+
+sotu_df$birth_date <- as.Date(sotu_df$birth_date, "%y-%m-%d")
+```
+
+
 
 ## Add Econ Data
 
