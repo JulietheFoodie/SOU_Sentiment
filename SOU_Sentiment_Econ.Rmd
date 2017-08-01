@@ -106,7 +106,7 @@ NROW(sotu_df)
 sotu_df <- sotu_df %>% 
   filter(!(year == 1978 & sotu_type == "written"))
 NROW(sotu_df)
-````
+```
 
 - It is unknown why there are two address listed in 1979. According to the Gutenberg library and the American Presidency Project the  actual state of the union is one of the two. That is the one we'll use for our analysis. 
 ```{r}
@@ -120,6 +120,13 @@ NROW(sotu_df)
 ```{r}
 sotu_df <- sotu_df %>% 
   filter(!(year == 1980 & sotu_type == "written"))
+NROW(sotu_df)
+```
+
+- It is unknown why there are two address listed in 1981. Jimmy Carter gave the actual State of the union. We will use that one for our analysis. 
+```{r}
+sotu_df <- sotu_df %>% 
+  filter(!(year == 1981 & sotu_type == "speech"))
 NROW(sotu_df)
 ```
 
@@ -188,50 +195,21 @@ as.character(sotu_df[232, 19])
 
 ## Convert Dates
 
-``{r}
-
-
-sotu_df$elect_date <- as_date(sotu_df$elect_date, tz = "UTC")
-
-sotu_df$sotu_date <- as.Date(sotu_df$sotu_date, "%y-%m-%d")
-
-sotu_df$birth_date <- as.Date(sotu_df$birth_date, "%y-%m-%d")
+```{r}
+sotu_df <- sotu_df %>%
+  mutate(elect_date = ymd(elect_date),
+         sotu_date = ymd(sotu_date),
+         birth_date = ymd(birth_date),
+         age = interval(birth_date, sotu_date)/years(1))
+str(sotu_df)
 ```
 
 
 
-## Add Econ Data
+## Export for Econ Data
 
 We will export the clean data set to properly format the economic data import. 
 
 ```{r}
 write.csv(sotu_df, file = "DFExport2.csv")
 ```
-
-## Data Upload
-
-The economic data we will use is sourced from the Federal Reserve Economic Data out of the St. Louis Federal Reserve
-
-```{r}
-econ_df <-read.csv("Econ_Data_Import.csv")
-```
-
-## Test for Uniqueness 
-```{r}
-ColumnGrab <- sotu_df %>% 
-  select(president, year, sotu_type) %>%
-  duplicated()
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
