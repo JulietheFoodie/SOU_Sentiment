@@ -1,0 +1,50 @@
+---
+title: "Econ data join"
+author: "Julie Norman"
+date: "7/31/2017"
+output: html_document
+---
+
+## Import clean sotu data
+
+```{r}
+sotu_df2 <- read_csv("./Exported_data/DFExport3.csv")
+str(sotu_df2)
+```
+
+## Import econ data
+
+```{r}
+econ_df <- read_csv("Econ_Data_Import.csv")
+str(econ_df)
+```
+
+
+
+## Join econ data
+
+```{r}
+all_data <- inner_join(sotu_df2, econ_df, by = "sotu_date")
+str(all_data)
+```
+
+
+### Optional filter by year
+
+```{r}
+#sotu_graph_df <- sotu_df2 %>% 
+  #filter(!(year == 1953 & birth_state == "Texas")) %>%
+  #filter(!(year == 1961 & birth_state == "Texas")) %>%
+  #filter(!(year == 1981 & birth_state == "Illinois" )) 
+ 
+```
+
+
+
+
+
+
+
+
+
+
