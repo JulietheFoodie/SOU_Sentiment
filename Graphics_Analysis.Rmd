@@ -1,0 +1,76 @@
+---
+title: "Graphics_Analysis"
+author: "Julie Norman"
+date: "8/2/2017"
+output: html_document
+---
+
+```{r}
+library(ggplot2)
+library(MASS)
+library(tidyr)
+```
+
+
+```{r}
+sotu_df2 <- read_csv("DFExport4.csv")
+str(sotu_df2)
+```
+
+## Score over time
+
+```{r}
+qplot(sotu_date, net_score, data = all_data)
+```
+
+## President Age vs Sentiment Score
+
+```{r}
+qplot(age, net_score, data = all_data)
+```
+
+## War vs Ideology
+
+```{r}
+ggplot(all_data, aes(fill = va_wars, x = relative_ideology)) +
+    geom_bar(position = "dodge")
+```
+
+## Net sentiment by Ideology
+
+```{r}
+ggplot(all_data, aes(y = net_score, x = relative_ideology)) +
+  geom_boxplot()
+```
+
+```{r}
+ggplot(all_data, aes(x = net_score)) +
+  geom_histogram() +
+  facet_grid(relative_ideology ~.)
+```
+
+```{r}
+ggplot(all_data, aes(x = net_score)) +
+  geom_histogram() +
+  facet_grid(party ~.)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
