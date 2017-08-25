@@ -9,18 +9,36 @@ output: html_document
 library(ggplot2)
 library(MASS)
 library(tidyr)
+library(readr)
+library(tidytext)
+library(tidyverse)
+library(sotu)
+library(lubridate)
 ```
 
 
 ```{r}
 sotu_df2 <- read_csv("DFExport4.csv")
+all_data <- read_csv("DFExport4.csv")
 str(sotu_df2)
+```
+
+
+## Outlier Deletion
+
+```{r}
+data_outlier <- all_data %>% 
+  filter(!(year == "1981" & sotu_type == "written"))
+NROW(data_outlier)
 ```
 
 ## Score over time
 
+
+
+
 ```{r}
-qplot(sotu_date, net_score, data = all_data)
+qplot(sotu_date, net_score, data = data_outlier)
 ```
 
 ## President Age vs Sentiment Score
@@ -50,17 +68,57 @@ ggplot(all_data, aes(x = net_score)) +
 ```
 
 ```{r}
-ggplot(all_data, aes(x = net_score)) +
+ggplot(data_outlier, aes(x = net_score)) +
   geom_histogram() +
-  facet_grid(party ~.)
+  facet_grid(va_wars ~.)
+```
+
+
+
+### Time Series No Outlier
+
+```{r}
+qplot(sotu_date, net_score, data = data_outlier)
+```
+
+
+## Business Cycle vs Net Sentiment
+
+```{r}
+sotu_buscyc_df <- data_outlier[-c(1, 2, 3, 4, 5, 6, 7, 8, 9), ]
+
+count(sotu_buscyc_df)
+
+```
+
+
+```{r}
+
+Bus_cycle <- sotu_buscyc_df$Bus_cycle
+
+count(sotu_buscyc_df$net_score)
+
+plot(net_score, Bus_cycle, data = sotu_buscyc_df)
+```
+
+## Gini
+
+```{r}
+
 ```
 
 
 
 
+## Correlation Coefficient 
 
 
+```{r}
+recession = sotu_buscyc_df$recession
+net_score = sotu_buscyc_df$net_score
 
+cor(recession, net_score)
+```
 
 
 

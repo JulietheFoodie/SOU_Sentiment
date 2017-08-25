@@ -8,7 +8,7 @@ output: html_document
 ## Import clean sotu data
 
 ```{r}
-sotu_df2 <- read_csv("./Exported_data/DFExport3.csv")
+sotu_df2 <- read_csv("DFExport3.csv")
 str(sotu_df2)
 ```
 
@@ -25,9 +25,15 @@ str(econ_df)
 
 ```{r}
 all_data <- inner_join(sotu_df2, econ_df, by = "sotu_date")
+all_data <- all_data[-c(225), ]
 str(all_data)
 ```
 
+## Write CSV
+
+```{r}
+write.csv(sotu_df2, "DFExport4.csv")
+```
 
 ### Optional filter by year
 

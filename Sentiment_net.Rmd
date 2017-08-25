@@ -54,7 +54,7 @@ NROW(sotu_df2)
 ## Write CSV
 
 ```{r}
-write.csv(sotu_df2, "./Exported_data/DFExport3.csv")
+write.csv(sotu_df2, "DFExport3.csv")
 ```
 
 

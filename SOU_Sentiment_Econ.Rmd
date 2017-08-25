@@ -193,6 +193,7 @@ sotu_df["232", "text"] = read_file("Obama_16.txt")
 as.character(sotu_df[232, 19])
 ```
 
+
 ## Convert Dates
 
 ```{r}
