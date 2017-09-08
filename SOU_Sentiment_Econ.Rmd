@@ -1,5 +1,5 @@
 ---
-title: "State of the Union Sentiment Anylasis and Historical Data Evaluation"
+title: "State of the Union Sentiment Anylasis and Historical Data Evaluation, Mark Down 1"
 author: "Julie Norman"
 output: html_notebook
 ---
@@ -38,6 +38,9 @@ str(sotu_df)
 ```
 
 # Data Edit
+
+
+
 
 ## Add Row 
 - Add Line to include Richard Nixon's 1973 address.
@@ -133,64 +136,51 @@ NROW(sotu_df)
 - Add speech text to Theodore Roosevelt 1904. Speech Source will be the Gutenberg Library text. 
 
 ```{r}
-sotu_df["116", "text"] = read_file("TR_04.txt")
-
-as.character(sotu_df[116, 19])
+sotu_df[which(sotu_df$sotu_date == "1904-12-06"), "text"] = read_file("TR_04.txt")
 ```
 
 
 - Add speech text to Ronald Regan 1982. Speech Source will be the Gutenberg Library text. 
 
 ```{r}
-sotu_df["198", "text"] = read_file("Reagan_82.txt")
-
-as.character(sotu_df[198, 19])
+sotu_df[which(sotu_df$sotu_date == "1982-01-26"), "text"] = read_file("Reagan_82.txt")
 ```
 
-```{r}
-sotu_df["198", "text"] = read_file("Reagan_84.txt")
 
-as.character(sotu_df[198, 19])
+- Add speech text to Ronald Regan 1984. Speech Source will be the Gutenberg Library text. 
+
+```{r}
+sotu_df[which(sotu_df$sotu_date == "1984-01-25"), "text"] = read_file("Reagan_84.txt")
 ```
 
 - Add speech text to George W. Bush 2003. Speech source will be the Gutenberg Library text. 
 
 ```{r}
-sotu_df["219", "text"] = read_file("WBush_03.txt")
-
-as.character(sotu_df[219, 19])
+sotu_df[which(sotu_df$year == "2003"), "text"] = read_file("WBush_03.txt")
 ```
 
 - Add speech text to George W. Bush 2005. Speech source will be the Gutenberg Library text. 
 
 ```{r}
-sotu_df["219", "text"] = read_file("WBush_05.txt")
-
-as.character(sotu_df[219, 19])
+sotu_df[which(sotu_df$year == "2005"), "text"] = read_file("WBush_05.txt")
 ```
 
 - Add speech text to Barack Obama 2011. Speech Source speech will be the Gutenberg Library text. 
 
 ```{r}
-sotu_df["227", "text"] = read_file("Obama_11.txt")
-
-as.character(sotu_df[225, 19])
+sotu_df[which(sotu_df$year == "2011"), "text"] = read_file("Obama_11.txt")
 ```
 
 - Add speech text to Barack Obama 2013. Speech source will be the Gutenberg Library text. 
 
 ```{r}
-sotu_df["232", "text"] = read_file("Obama_13.txt")
-
-as.character(sotu_df[227, 19])
+sotu_df[which(sotu_df$year == "2013"), "text"] = read_file("Obama_13.txt")
 ```
 
 - Add speech text to Barack Obama 2016. Speech source will be the Gutenberg Library text. 
 
 ```{r}
-sotu_df["232", "text"] = read_file("Obama_16.txt")
-
-as.character(sotu_df[232, 19])
+sotu_df[which(sotu_df$year == "2016"), "text"] = read_file("Obama_16.txt")
 ```
 
 
@@ -205,7 +195,15 @@ sotu_df <- sotu_df %>%
 str(sotu_df)
 ```
 
+## Fix Import Dates
 
+```{r}
+
+sotu_df[which(sotu_df$year == "2003"), "sotu_date"] = as.Date('2003-02-18')
+sotu_df[which(sotu_df$year == "2004"), "sotu_date"] = as.Date('2004-01-24')
+
+
+```
 
 ## Export for Econ Data
 
