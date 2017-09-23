@@ -1,5 +1,5 @@
 ---
-title: "State of the Union Sentiment Anylasis and Historical Data Evaluation, Mark Down 1"
+title: "State of the Union Sentiment Anylasis and Historical Data Evaluation, MarkDown 1"
 author: "Julie Norman"
 output: html_notebook
 ---
@@ -70,6 +70,7 @@ sotu_df <- rbind(sotu_df, addrow_1973)
 NROW(sotu_df)
 
 ```
+
 
 - In 1945 Franklin Delanor Roosevelt offered two different versions of the 1945 State of the Union. According to the Gutenberg library and the American Presidency Project the spoken speech is the more accurate one. We will use that speech for our analysis
 ```{r}

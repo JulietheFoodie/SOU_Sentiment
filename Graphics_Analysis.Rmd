@@ -1,5 +1,5 @@
 ---
-title: "Graphics_Analysis"
+title: "Graphics_Analysis, MarkDown 4"
 author: "Julie Norman"
 date: "8/2/2017"
 output: html_document
@@ -14,32 +14,221 @@ library(tidytext)
 library(tidyverse)
 library(sotu)
 library(lubridate)
+library(tseries)
 ```
 
 
 ```{r}
 sotu_df2 <- read_csv("DFExport4.csv")
 all_data <- read_csv("DFExport4.csv")
-str(sotu_df2)
+
+
+
 ```
+
 
 
 ## Outlier Deletion
 
 ```{r}
 data_outlier <- all_data %>% 
-  filter(!(year == "1981" & sotu_type == "written"))
+  filter(year.x != 1981)
+
+
+
+data_outlier[which(data_outlier$sotu_date == "1939-01-04"), "Bus_cycle"] = -0.377884616
+
 NROW(data_outlier)
+str(data_outlier)
 ```
 
 ## Score over time
 
 
+lowess/loess parameter in ggplot for geom_smooth?
+
+```{r}
+ggplot(data_outlier, aes(x = sotu_date, y = net_score)) +
+  geom_point() +
+  geom_smooth(method = 'loess', span = .1)
+```
+
+```{r}
+ggplot(data_outlier, aes(x = sotu_date, y = net_score)) +
+  geom_line()
+```
+
+```{r}
+ggplot(data_outlier, aes(x = sotu_date, y = Bus_cycle)) +
+  geom_point() +
+  geom_smooth(method = 'loess', span = .1)
+```
+
+#Business Cycle
+
+```{r}
+data_1850 <- data_outlier %>%
+  filter(year.x >= 1850 & year.x <= 2009)
+
+ggplot(data_1850, aes(x = net_score, y = Bus_cycle)) +
+  geom_point()
+```
+
+
+
+
+## Info
+
+Cross Correlation function 
+
+```{r}
+bus_ccf <- ccf(data_1850$Bus_cycle, data_1850$net_score) 
+
+plot(bus_ccf, main = "Business Cycle and Net Sentiment")
+```
+the acf lag plot shows no association
+
+
+# Recssion
+
+```{r}
+data_1854 <- data_outlier %>%
+  filter(year.x >= 1854)
+
+ggplot(data_1854, aes(x = net_score, y = recession)) +
+  geom_point()
+```
+
 
 
 ```{r}
-qplot(sotu_date, net_score, data = data_outlier)
+ccf(data_1854$recession, data_1854$net_score) 
+
 ```
+
+# Gini 
+
+```{r}
+data_1947 <- data_outlier %>%
+  filter(year.x >= 1947 & year.x <= 2015)
+
+
+ggplot(data_1947, aes(x = net_score, y = Gini)) +
+  geom_point() 
+
+```
+
+
+
+```{r}
+
+ccf(data_1947$Gini, data_1947$net_score)
+```
+
+
+
+# Gross National Income Median
+
+```{r}
+data_1948 <- data_outlier %>%
+  filter(year.x >= 1948 & year.x <= 2016)
+
+ggplot(data_1948, aes(x = net_score, y = GNI_med)) +
+  geom_point()
+```
+
+```{r}
+ccf(data_1948$GNI_med, data_1948$net_score)
+```
+
+#Gross National Income Average
+
+```{r}
+ggplot(data_1948, aes(x = net_score, y = GNI_avg)) +
+  geom_point()
+```
+
+```{r}
+GNI_avg <- data_1948$GNI_avg
+net_score <- data_1948$net_score
+GNI_lm <- lm(GNI_avg ~ net_score)
+
+#plot(net_score, GNI_avg)
+#abline(GNI_lm)
+#summary(GNI_lm)
+```
+
+
+```{r}
+ccf(data_1948$GNI_avg, data_1948$net_score)
+```
+
+# Percent Unemployment
+
+```{r}
+data_1949 <- data_outlier %>%
+  filter(year.x >= 1949 & year.x <= 2016)
+
+ggplot(data_1949, aes(x = net_score, y = pct_employ)) +
+  geom_point()
+```
+
+```{r}
+
+ccf(data_1949$pct_employ, data_1949$net_score)
+```
+
+# NDI Median
+
+```{r}
+ggplot(data_outlier, aes(x = NDI_med, y = net_score)) +
+  geom_point() 
+  
+```
+
+```{r}
+ccf(data_1949$NDI_med, data_1949$net_score)
+```
+
+```{r}
+NDI_med <- data_1948$NDI_med
+net_score <- data_1948$net_score
+NDImed_lm <- lm(NDI_med ~ net_score)
+
+plot(net_score, NDI_med)
+abline(NDImed_lm)
+summary(NDImed_lm)
+```
+
+# NDI Average
+
+```{r}
+ggplot(data_outlier, aes(x = NDI_avg, y = net_score)) +
+  geom_point() 
+  
+```
+
+```{r}
+ccf(data_1949$NDI_avg, data_1949$net_score)
+```
+
+
+
+```{r}
+NDI_avg <- data_1948$NDI_avg
+net_score <- data_1948$net_score
+NDIav_lm <- lm(NDI_med ~ net_score)
+
+plot(net_score, NDI_avg)
+abline(NDIav_lm)
+summary(NDIav_lm)
+  
+```
+
+```{r}
+ccf(data_1949$NDI_med, data_1949$net_score)
+```
+
 
 ## President Age vs Sentiment Score
 
@@ -68,8 +257,8 @@ ggplot(all_data, aes(x = net_score)) +
 ```
 
 ```{r}
-ggplot(data_outlier, aes(x = net_score)) +
-  geom_histogram() +
+ggplot(data_outlier, aes(x = net_score, y = ..density..)) +
+  geom_histogram(binwidth = 50, boundary = 0) +
   facet_grid(va_wars ~.)
 ```
 
@@ -125,7 +314,11 @@ cor(recession, net_score)
 
 
 
-
+```{r}
+gini_lm <- lm(data_1947$Gini ~ data_1947$net_score)
+plot(data_1947$net_score, data_1947$Gini)
+abline(gini_lm)
+```
 
 
 
